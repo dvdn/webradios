@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<radioslist>
+    <radio>
+        <title>4U Rock N Metal</title>
+        <url>https://streaming.radionomy.com/4U-Hard-FM</url>
+        <genre>rock metal</genre>
+    </radio>
+        <radio>
+        <title>4U Classic Rock</title>
+        <url>http://str4uice.streamakaci.com/4uclassicrock.mp3</url>
+        <genre>rock classic</genre>
+    </radio>
+    <radio>
+        <title>La Grosse Radio METAL</title>
+        <url>http://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3</url>
+        <genre>rock metal</genre>
+        <website>http://www.lagrosseradio.com</website>
+    </radio>
+    <radio>
+        <title>Prog Palace Radio</title>
+        <url>http://199.168.117.61:8006/1?cb=278134.mp3</url>
+        <genre>rock progressive</genre>
+        <website>http://www.progpalaceradio.com/</website>
+    </radio>
+    <radio>
+        <title>ChroniX Aggression - Loud &amp; Clear</title>
+        <url>http://streaming.radionomy.com/ChroniXRadio-</url>
+        <genre>rock metal</genre>
+        <website>http://www.chronixradio.com/</website>
+    </radio>
+    <radio>
+        <title>Zombie*Radio</title>
+        <url>http://74.67.225.17:420/;stream.nsv</url>
+        <genre>rock metal</genre>
+        <website>http://www.zombie-radio.com</website>
+    </radio>
+    <radio>
+        <title>PBB</title>
+        <url>http://pbb.laurentgarnier.com:8000/pbb128</url>
+        <genre>eclectic</genre>
+    </radio>
+    <radio>
+        <title>France Culture</title>
+        <url>http://direct.franceculture.fr/live/franceculture-midfi.mp3</url>
+        <genre>eclectic</genre>
+    </radio>
+    <radio>
+        <title>France Inter</title>
+        <url>http://direct.franceinter.fr/live/franceinter-midfi.mp3</url>
+        <genre>eclectic</genre>
+    </radio>
+    <radio>
+        <title>Radio Libertaire</title>
+        <url>http://ecoutez.radio-libertaire.org:8080/radiolib</url>
+        <genre>eclectic</genre>
+        <website>https://www.radio-libertaire.net/</website>
+    </radio>
+    <radio>
+        <title>Rires et Chansons - collectors</title>
+        <url>http://185.52.127.172/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1484388999</url>
+        <genre>rires</genre>
+    </radio>
+    <radio>
+        <title>Limbik Frequencies - Radio Elektro[u]nique</title>
+        <url>http://23.254.217.103:8000/256.mp3</url>
+        <genre>electronic idm</genre>
+        <website>https://www.facebook.com/limbikfreq</website>
+    </radio>
+    <radio>
+        <title>16BIT.FM I.D.E.A Channel</title>
+        <url>http://stream.16bit.fm:8000/idea_mp3_192</url>
+        <genre>electronic idm</genre>
+        <website>http://16bit.fm</website>
+    </radio>
+    <radio>
+        <title>16BIT.FM Cafe Channel</title>
+        <url>http://stream.16bit.fm:8000/cafe_mp3_192</url>
+        <genre>electronic idm</genre>
+        <website>http://16bit.fm</website>
+    </radio>
+    <radio>
+        <title>16BIT.FM Main Channel</title>
+        <url>http://stream.16bit.fm:8000/main_mp3_192</url>
+        <genre>electronic idm</genre>
+        <website>http://16bit.fm</website>
+    </radio>
+    <radio>
+        <title>[SomaFM] cliqhop idm</title>
+        <url>http://ice2.somafm.com/cliqhop-128-mp3</url>
+        <genre>electronic idm</genre>
+        <website>http://somafm.com/cliqhop/</website>
+    </radio>
+    <radio>
+        <title>plusfm.net</title>
+        <url>http://195.154.72.66/;stream.mp3</url>
+        <genre>electronic</genre>
+        <website>http://www.plusfm.net</website>
+    </radio>
+    <radio>
+        <title>Scratch radio</title>
+        <url>http://173.192.198.244:8042/;stream.nsv</url>
+        <genre>reggae ska dub</genre>
+        <website>http://www.azevedo.ca</website>
+    </radio>
+    <radio>
+        <title>Radiorewers</title>
+        <url>http://serwery-shoutcast.net:9966/;stream.nsv</url>
+        <genre>eclectic</genre>
+        <website>http://radiorewers.pl</website>
+    </radio>
+    <radio>
+        <title>BLACK SOUL RHYTHMS RADIO</title>
+        <url>http://pstnet5.shoutcastnet.com:50020/;stream.nsv</url>
+        <genre>soul</genre>
+        <website>http://blacksoulrhythms.com</website>
+    </radio>
+    <radio>
+        <title>Movie Magic</title>
+        <url>http://107.175.72.133:8064/;stream.nsv</url>
+        <genre>soundtracks</genre>
+        <website>http://www.ampedfm.com/</website>
+    </radio>
+</radioslist>
