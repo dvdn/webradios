@@ -1,14 +1,12 @@
 /* Radio player management */
 /* it depends on mrp.js */
 var playerConfig = {
-        //'url': null,
         'codec':'mp3',
         'elementId': 'player-wrapper',
         'volume':100,
-        'autoplay':false,
+        'autoplay':true,
         'jsevents':true,
         'buffering':0,
-        //'title': null,
         'wmode':'transparent',
         'skin':'cassette',
         'width':200,
@@ -20,13 +18,8 @@ var playerConfig = {
         };
 
 function returnPlayerConfig(media = null) {
-    if (media == null){
-        media = defaultRadio;
-        media.autoplay = false
-    };
-    playerConfig.title = media.title;
-    playerConfig.url = media.url;
-    playerConfig.autoplay = true;
+    playerConfig.title = (media == null) ? defaultRadio.title : media.title;
+    playerConfig.url = (media == null) ? defaultRadio.url : media.url;
     return playerConfig;
 }
 
