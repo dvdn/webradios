@@ -8,7 +8,7 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "webradios.xml", true);
 xhttp.send();
 
-var listGenres = ['rock', 'electronic', 'reggae', 'soundtracks', 'other'];
+var listGenres = ['rock', 'electronic', 'reggae', 'africa', 'soundtracks', 'other'];
 
 function loadRadios(xml) {
     var xmlDoc = xml.responseXML,
