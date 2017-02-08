@@ -7,6 +7,15 @@ A web page to group and play all your favorite webradios !
 - it depends on open source [Muses Radio Player](https://github.com/fbricker/muses)
 - webradios are ordered by genre
 
-Add/remove webradios by editing '[webradios.xml](https://github.com/dvdn/webradios/blob/master/webradios.xml)'
+## Usage
 
+Clone or download this repository on your server. Job done !
+
+### Customization
+Choose your **skin player** between all [muses skins](https://www.muses.org/official-skins) and edit 'playerConfig' in [radioplayer.js
+](https://github.com/dvdn/webradios/blob/master/radioplayer.js) as you want
+
+Add/remove **webradios** by editing '[webradios.xml](https://github.com/dvdn/webradios/blob/master/webradios.xml)'
+
+## Preview
 See preview > [webradios](http://dvdn.free.fr/webradios/)
