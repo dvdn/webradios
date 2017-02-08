@@ -35,9 +35,27 @@
         <website>http://www.zombie-radio.com</website>
     </radio>
     <radio>
+        <title>Radio Neo</title>
+        <url>http://www.radioneo.org:8000/radioneo</url>
+        <genre>rock</genre>
+        <website>http://www.radioneo.org</website>
+    </radio>
+    <radio>
         <title>PBB</title>
         <url>http://pbb.laurentgarnier.com:8000/pbb128</url>
         <genre>eclectic</genre>
+    </radio>
+    <radio>
+        <title>Pan African Allstars</title>
+        <url>http://tess.fast-serv.com:8580/;</url>
+        <genre>african</genre>
+        <website>http://www.panafricanallstars.com</website>
+    </radio>
+    <radio>
+        <title>Couleur 3</title>
+        <url>http://stream.srg-ssr.ch/m/couleur3/mp3_128</url>
+        <genre>eclectic</genre>
+        <website>http://www.rts.ch/couleur3</website>
     </radio>
     <radio>
         <title>France Culture</title>
@@ -56,9 +74,27 @@
         <website>https://www.radio-libertaire.net/</website>
     </radio>
     <radio>
+        <title>Ici et Maintenant</title>
+        <url>http://radio.rim952.fr:8000/stream.mp3</url>
+        <genre>eclectic</genre>
+        <website>http://www.icietmaintenant.com</website>
+    </radio>
+    <radio>
         <title>Rires et Chansons - collectors</title>
         <url>http://185.52.127.172/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1484388999</url>
         <genre>rires</genre>
+    </radio>
+    <radio>
+        <title>Maurice Radio Libre</title>
+        <url>http://radio4.pro-fhi.net:9101/live</url>
+        <genre>eclectic</genre>
+        <website>http://www.mauriceradiolibre.com</website>
+    </radio>
+    <radio>
+    <title>Bide&amp;Musique</title>
+        <url>http://relay1.bide-et-musique.com:9100/;</url>
+        <genre>chansons françaises 70's 80's</genre>
+        <website>http://www.bide-et-musique.com/</website>
     </radio>
     <radio>
         <title>Limbik Frequencies - Radio Elektro[u]nique</title>
