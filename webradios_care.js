@@ -24,13 +24,21 @@ function itemManagement(item) {
     var radioItem = {
             title:item.getElementsByTagName("title")[0].childNodes[0].nodeValue,
             url:item.getElementsByTagName("url")[0].childNodes[0].nodeValue,
-            genre:item.getElementsByTagName("genre")[0].childNodes[0].nodeValue
+            genre:item.getElementsByTagName("genre")[0].childNodes[0].nodeValue,
+            website:item.getElementsByTagName("website")[0].childNodes[0].nodeValue
             };
     var nodeLi = document.createElement("li");
     var nodeBtn = document.createElement("button");
-    var text = document.createTextNode(radioItem.title);
-    nodeBtn.appendChild(text);
+    var nodeLinkWeb = document.createElement("a");
+    nodeLinkWeb.setAttribute("href", radioItem.website);
+    nodeLinkWeb.setAttribute("target", "__blank");
+    nodeLinkWeb.setAttribute("class", "website-link");
+    var textWebsite = document.createTextNode("website");
+    var textTitle = document.createTextNode(radioItem.title);
+    nodeBtn.appendChild(textTitle);
+    nodeLinkWeb.appendChild(textWebsite);
     nodeLi.appendChild(nodeBtn);
+    nodeLi.appendChild(nodeLinkWeb);
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
     nodeBtn.onclick = function(){returnPlayer(radioItem.title, radioItem.url);};
 

@@ -4,11 +4,13 @@
         <title>4U Rock N Metal</title>
         <url>https://streaming.radionomy.com/4U-Hard-FM</url>
         <genre>rock metal</genre>
+        <website>http://www.4urocknmetal.com</website>
     </radio>
         <radio>
         <title>4U Classic Rock</title>
         <url>http://str4uice.streamakaci.com/4uclassicrock.mp3</url>
         <genre>rock classic</genre>
+        <website>https://www.4urock.com/</website>
     </radio>
     <radio>
         <title>La Grosse Radio METAL</title>
@@ -44,6 +46,7 @@
         <title>PBB</title>
         <url>http://pbb.laurentgarnier.com:8000/pbb128</url>
         <genre>eclectic</genre>
+        <website>http://laurentgarnier.com</website>
     </radio>
     <radio>
         <title>Pan African Allstars</title>
@@ -61,17 +64,19 @@
         <title>France Culture</title>
         <url>http://direct.franceculture.fr/live/franceculture-midfi.mp3</url>
         <genre>eclectic</genre>
+        <website>https://www.franceculture.fr</website>
     </radio>
     <radio>
         <title>France Inter</title>
         <url>http://direct.franceinter.fr/live/franceinter-midfi.mp3</url>
         <genre>eclectic</genre>
+        <website>https://www.franceinter.fr</website>
     </radio>
     <radio>
         <title>Radio Libertaire</title>
         <url>http://ecoutez.radio-libertaire.org:8080/radiolib</url>
         <genre>eclectic</genre>
-        <website>https://www.radio-libertaire.net/</website>
+        <website>https://www.radio-libertaire.net</website>
     </radio>
     <radio>
         <title>Ici et Maintenant</title>
@@ -83,6 +88,7 @@
         <title>Rires et Chansons - collectors</title>
         <url>http://185.52.127.172/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1484388999</url>
         <genre>rires</genre>
+        <website>http://www.rireetchansons.fr</website>
     </radio>
     <radio>
         <title>Maurice Radio Libre</title>
