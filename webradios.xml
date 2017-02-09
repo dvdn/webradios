@@ -139,6 +139,18 @@
         <website>http://www.plusfm.net</website>
     </radio>
     <radio>
+        <title>ETN 2 house</title>
+        <url>http://www.etn.fm:8200/house-mp3-320</url>
+        <genre>electronic house</genre>
+        <website>http://etn.fm</website>
+    </radio>
+    <radio>
+        <title>ETN 1 Trance</title>
+        <url>http://ch1relay1.etn.fm:8130/;</url>
+        <genre>electronic trance</genre>
+        <website>http://etn.fm</website>
+    </radio>
+    <radio>
         <title>Scratch radio</title>
         <url>http://173.192.198.244:8042/;stream.nsv</url>
         <genre>reggae ska dub</genre>
@@ -155,6 +167,18 @@
         <url>http://pstnet5.shoutcastnet.com:50020/;stream.nsv</url>
         <genre>soul</genre>
         <website>http://blacksoulrhythms.com</website>
+    </radio>
+    <radio>
+        <title>Diva Radio FUNK</title>
+        <url>http://163.172.119.118:10780</url>
+        <genre>funk</genre>
+        <website>http://deevaradio.net</website>
+    </radio>
+    <radio>
+        <title>KIF Radio</title>
+        <url>http://94.23.222.12:8003/stream</url>
+        <genre>funk house</genre>
+        <website>http://www.kifradio.com</website>
     </radio>
     <radio>
         <title>Movie Magic</title>

@@ -8,7 +8,7 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "webradios.xml", true);
 xhttp.send();
 
-var listGenres = ["rock", "electronic", "reggae", "africa", "soundtracks", "other"];
+var listGenres = ["rock", "electronic", "funk", "reggae", "africa", "soundtracks", "other"];
 
 function loadRadios(xml) {
     var xmlDoc = xml.responseXML;
@@ -35,7 +35,9 @@ function itemManagement(item) {
     nodeLinkWeb.setAttribute("class", "website-link");
     var textWebsite = document.createTextNode("website");
     var textTitle = document.createTextNode(radioItem.title);
+    var textGenre = document.createTextNode(radioItem.genre);
     nodeBtn.appendChild(textTitle);
+    nodeBtn.setAttribute("title", radioItem.genre);
     nodeLinkWeb.appendChild(textWebsite);
     nodeLi.appendChild(nodeBtn);
     nodeLi.appendChild(nodeLinkWeb);
