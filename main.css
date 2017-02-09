@@ -19,7 +19,7 @@ header, content{
     text-align: center;
 }
 footer{
-    margin-top: 40px;
+    line-height: 5em;
     color:grey;
 }
 header p{
@@ -39,8 +39,8 @@ header p{
     margin:auto;
 }
 button{
-    width: 12em;
-    height:5em;
+    width: 200px;
+    height:4em;
     margin:0.5em;
     padding:0.5em;
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
@@ -50,13 +50,13 @@ button{
     -webkit-border-radius:6px;
     -moz-border-radius:6px;
     border-radius:6px;
-    /*border:1px solid #337fed;*/
     color:#ffffff;
     font-size:0.8em;
     font-weight:bold;
     font-style:normal;
     text-decoration:none;
     text-align:center;
+    cursor:pointer;
 }
     button:hover{
         background: #1e62d0;
@@ -92,15 +92,20 @@ section:last-child{
         float:left;
     }
     section li{
-        min-height:100px;
-        text-align: center;
+        min-height:80px;
     }
 
     section li a.website-link{
-    display: block;
-    margin-right: 1em;
-    text-align: right;
-    color: grey;
-    font-size: 0.6em;
-}
-
+        display: block;
+        width: 25%;
+        margin-left: 67%;
+        font-size: 0.6em;
+        color: grey;
+        text-align: center;
+        border-bottom: 1px dotted grey;
+        border-left: 1px dotted grey;
+        border-right: 1px dotted grey;
+    }
+    section li a.website-link:hover{
+        color:#337fed
+    }
