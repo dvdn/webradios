@@ -65,6 +65,12 @@ button{
         top:1px;
         background: #14428b;
     }
+    button.onair{
+        color: yellow;
+        font-style: italic;
+        letter-spacing: 3px;
+    }
+
 /* genre ordering */
 section{
     display: inline-block;
