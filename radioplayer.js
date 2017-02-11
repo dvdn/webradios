@@ -9,7 +9,6 @@ var playerConfig = {
         "buffering":0,
         "wmode":"transparent",
         "skin":"cassette",
-        "forcehtml5":true,
         "width":200,
         "height":120
         };
