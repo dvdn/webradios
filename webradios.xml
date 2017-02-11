@@ -55,6 +55,12 @@
         <website>http://www.panafricanallstars.com</website>
     </radio>
     <radio>
+        <title>La Merenguera</title>
+        <url>http://streaming.radionomy.com/LaMerengueraCom</url>
+        <genre>latino merengue</genre>
+        <website>http://www.lamerenguera.com</website>
+    </radio>
+    <radio>
         <title>Couleur 3</title>
         <url>http://stream.srg-ssr.ch/m/couleur3/mp3_128</url>
         <genre>eclectic</genre>
@@ -173,6 +179,12 @@
         <url>http://163.172.119.118:10780/;</url>
         <genre>funk</genre>
         <website>http://deevaradio.net</website>
+    </radio>
+    <radio>
+        <title>..:: French Kiss FM ::..</title>
+        <url>http://178.63.62.145/;</url>
+        <genre>electronic</genre>
+        <website>http://www.frenchkissfm.com</website>
     </radio>
     <radio>
         <title>KIF Radio</title>
