@@ -42,7 +42,7 @@ function itemManagement(item) {
     nodeLi.appendChild(nodeBtn);
     nodeLi.appendChild(nodeLinkWeb);
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
-    nodeBtn.onclick = function(){returnPlayer(radioItem.title, radioItem.url);};
+    nodeBtn.onclick = function(){loadTrack(radioItem.title, radioItem.url);};
 
     for (var i = 0; i < listGenres.length; i++) {
         if (radioItem.genre.indexOf(listGenres[i]) !== -1) {

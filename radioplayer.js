@@ -9,6 +9,7 @@ var playerConfig = {
         "buffering":0,
         "wmode":"transparent",
         "skin":"cassette",
+        "forcehtml5":true,
         "width":200,
         "height":120
         };
@@ -17,14 +18,18 @@ var defaultRadio = {
         url:"http://pbb.laurentgarnier.com:8000/pbb128"
         };
 
-function returnPlayerConfig(media = null) {
-    playerConfig.title = (media === null) ? defaultRadio.title : media.title;
-    playerConfig.url = (media === null) ? defaultRadio.url : media.url;
+function returnPlayerConfig() {
+    playerConfig.title = defaultRadio.title;
+    playerConfig.url = defaultRadio.url;
     return playerConfig;
 }
 
-function returnPlayer(title = null, url = null){
-    var media = (title === null) ? null : {title:title, url:url};
-    MRP.stop();
-    MRP.insert(returnPlayerConfig(media));
+function returnPlayer(){
+    MRP.insert(returnPlayerConfig());
+}
+
+function loadTrack(title, url){
+    MRP.setUrl(url);
+    MRP.setTitle(title);
+    MRP.play();
 }
