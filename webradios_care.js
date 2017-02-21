@@ -8,7 +8,7 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "webradios.xml", true);
 xhttp.send();
 
-var listGenres = ["rock", "electronic", "funk", "reggae", "africa", "soundtracks", "other"];
+var listGenres = ["rock", "electronic", "funk", "reggae", "african", "latino", "soundtracks", "talk"];
 
 function loadRadios(xml) {
     var xmlDoc = xml.responseXML;
@@ -46,11 +46,11 @@ function itemManagement(item) {
 
     for (var i = 0; i < listGenres.length; i++) {
         if (radioItem.genre.indexOf(listGenres[i]) !== -1) {
-            document.getElementById(listGenres[i]).appendChild(nodeLi);
+            document.getElementsByClassName(listGenres[i])[0].appendChild(nodeLi);
             /* break if processed */
             return;
         }
         /* else default */
-        document.getElementById("other").appendChild(nodeLi);
+        document.getElementsByClassName("other")[0].appendChild(nodeLi);
     }
 }
