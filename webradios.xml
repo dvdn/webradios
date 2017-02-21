@@ -51,7 +51,7 @@
     <radio>
         <title>Kohina</title>
         <url>http://stream.nute.net:8000/kohina/stream.ogg</url>
-        <genre>electronic videogame</genre>
+        <genre>electronic video-game</genre>
         <website>http://www.kohina.com</website>
     </radio>
     <radio>
@@ -75,7 +75,7 @@
     <radio>
         <title>Tropical 100 Mix</title>
         <url>http://108.54.234.102:7996/;</url>
-        <genre>latin</genre>
+        <genre>latino</genre>
         <website>http://www.tropical100.com</website>
     </radio>
     <radio>
@@ -87,43 +87,43 @@
     <radio>
         <title>France Culture</title>
         <url>http://direct.franceculture.fr/live/franceculture-midfi.mp3</url>
-        <genre>eclectic</genre>
+        <genre>talk eclectic</genre>
         <website>https://www.franceculture.fr</website>
     </radio>
     <radio>
         <title>France Inter</title>
         <url>http://direct.franceinter.fr/live/franceinter-midfi.mp3</url>
-        <genre>eclectic</genre>
+        <genre>talk eclectic</genre>
         <website>https://www.franceinter.fr</website>
     </radio>
     <radio>
         <title>Radio Libertaire</title>
         <url>http://ecoutez.radio-libertaire.org:8080/radiolib</url>
-        <genre>eclectic</genre>
+        <genre>talk eclectic</genre>
         <website>https://www.radio-libertaire.net</website>
     </radio>
     <radio>
         <title>Ici et Maintenant</title>
         <url>http://radio.rim952.fr:8000/stream.mp3</url>
-        <genre>eclectic</genre>
+        <genre>talk eclectic</genre>
         <website>http://www.icietmaintenant.com</website>
     </radio>
     <radio>
         <title>Rires et Chansons - collectors</title>
         <url>http://185.52.127.172/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1484388999</url>
-        <genre>rires</genre>
+        <genre>rires talk</genre>
         <website>http://www.rireetchansons.fr</website>
     </radio>
     <radio>
         <title>Nostalgie</title>
         <url>http://185.52.127.168/fr/40106/aac_64.mp3</url>
-        <genre>legend</genre>
+        <genre>chansons françaises</genre>
         <website>http://www.nostalgie.fr</website>
     </radio>
     <radio>
         <title>Maurice Radio Libre</title>
         <url>http://radio4.pro-fhi.net:9101/live</url>
-        <genre>eclectic</genre>
+        <genre>eclectic talk</genre>
         <website>http://www.mauriceradiolibre.com</website>
     </radio>
     <radio>
