@@ -49,6 +49,18 @@
         <website>http://laurentgarnier.com</website>
     </radio>
     <radio>
+        <title>Kohina</title>
+        <url>http://stream.nute.net:8000/kohina/stream.ogg</url>
+        <genre>electronic videogame</genre>
+        <website>http://www.kohina.com</website>
+    </radio>
+    <radio>
+        <title>NoLife-radio.com</title>
+        <url>http://radio.nolife-radio.com:8000/;</url>
+        <genre>electronic video-game</genre>
+        <website>http://nolife-radio.com</website>
+    </radio>
+    <radio>
         <title>Pan African Allstars</title>
         <url>http://tess.fast-serv.com:8580/;</url>
         <genre>african</genre>
