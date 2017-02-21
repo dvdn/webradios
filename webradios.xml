@@ -73,6 +73,12 @@
         <website>http://www.lamerenguera.com</website>
     </radio>
     <radio>
+        <title>Tropical 100 Mix</title>
+        <url>http://108.54.234.102:7996/;</url>
+        <genre>latin</genre>
+        <website>http://www.tropical100.com</website>
+    </radio>
+    <radio>
         <title>Couleur 3</title>
         <url>http://stream.srg-ssr.ch/m/couleur3/mp3_128</url>
         <genre>eclectic</genre>
@@ -107,6 +113,12 @@
         <url>http://185.52.127.172/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1484388999</url>
         <genre>rires</genre>
         <website>http://www.rireetchansons.fr</website>
+    </radio>
+    <radio>
+        <title>Nostalgie</title>
+        <url>http://185.52.127.168/fr/40106/aac_64.mp3</url>
+        <genre>legend</genre>
+        <website>http://www.nostalgie.fr</website>
     </radio>
     <radio>
         <title>Maurice Radio Libre</title>
@@ -169,6 +181,30 @@
         <website>http://etn.fm</website>
     </radio>
     <radio>
+        <title>Friskyradio</title>
+        <url>http://stream2.friskyradio.com/frisky_mp3_hi</url>
+        <genre>electronic</genre>
+        <website>https://www.friskyradio.com</website>
+    </radio>
+    <radio>
+        <title>Friskyradio Deep</title>
+        <url>http://deep.friskyradio.com/friskydeep_aachi</url>
+        <genre>electronic</genre>
+        <website>https://www.friskyradio.com</website>
+    </radio>
+    <radio>
+        <title>Friskyradio Chill</title>
+        <url>http://chill.friskyradio.com/friskychill_mp3_high</url>
+        <genre>electronic</genre>
+        <website>https://www.friskyradio.com</website>
+    </radio>
+        <radio>
+        <title>HouseTime.FM</title>
+        <url>http://lw1.mp3.tb-group.fm:8080/ht.mp3</url>
+        <genre>electronic house</genre>
+        <website>http://www.housetime.fm/</website>
+    </radio>
+    <radio>
         <title>Scratch radio</title>
         <url>http://173.192.198.244:8042/;stream.nsv</url>
         <genre>reggae ska dub</genre>
@@ -209,5 +245,11 @@
         <url>http://107.175.72.133:8064/;stream.nsv</url>
         <genre>soundtracks</genre>
         <website>http://www.ampedfm.com/</website>
+    </radio>
+    <radio>
+        <title>Venice classic radio</title>
+        <url>http://109.123.116.202:8022/;</url>
+        <genre>classic</genre>
+        <website>http://www.veniceclassicradio.eu</website>
     </radio>
 </radioslist>
