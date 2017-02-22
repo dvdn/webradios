@@ -17,9 +17,12 @@ var defaultRadio = {
         url:"http://pbb.laurentgarnier.com:8000/pbb128"
         };
 
+var instanceMetadata = new webradioData();
+
 function returnPlayerConfig() {
     playerConfig.title = defaultRadio.title;
     playerConfig.url = defaultRadio.url;
+    instanceMetadata.url = defaultRadio.url;
     return playerConfig;
 }
 
@@ -31,4 +34,9 @@ function loadTrack(title, url){
     MRP.setUrl(url);
     MRP.setTitle(title);
     MRP.play();
+
+    instanceMetadata.url = url;
 }
+
+
+
