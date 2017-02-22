@@ -9,6 +9,7 @@ xhttp.open("GET", "webradios.xml", true);
 xhttp.send();
 
 var listGenres = ["rock", "electronic", "funk", "reggae", "african", "latino", "soundtracks", "talk"];
+var webradioMetadata = new webradioData();
 
 function loadRadios(xml) {
     var xmlDoc = xml.responseXML;
@@ -27,6 +28,10 @@ function itemManagement(item) {
             genre:item.getElementsByTagName("genre")[0].childNodes[0].nodeValue,
             website:item.getElementsByTagName("website")[0].childNodes[0].nodeValue
             };
+
+    webradioMetadata.url = radioItem.url;
+    webradioMetadata.getCurrentSong();
+
     var nodeLi = document.createElement("li");
     var nodeBtn = document.createElement("button");
     var nodeLinkWeb = document.createElement("a");
