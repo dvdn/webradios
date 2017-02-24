@@ -21,11 +21,22 @@ function loadRadios(xml) {
 }
 /* for each radio item, append 'li' element by 'ul' genre */
 function itemManagement(item) {
+
+    try {
+      var broadcast = item.getElementsByTagName("broadcast")[0].childNodes[0].nodeValue;
+    }
+    catch (e) {
+       console.log(e);
+       var broadcast = "undefined";
+    }
+
+
     var radioItem = {
             title:item.getElementsByTagName("title")[0].childNodes[0].nodeValue,
             url:item.getElementsByTagName("url")[0].childNodes[0].nodeValue,
             genre:item.getElementsByTagName("genre")[0].childNodes[0].nodeValue,
-            website:item.getElementsByTagName("website")[0].childNodes[0].nodeValue
+            website:item.getElementsByTagName("website")[0].childNodes[0].nodeValue,
+            broadcast:broadcast
             };
     var nodeLi = document.createElement("li");
     var nodeBtn = document.createElement("button");
@@ -42,7 +53,7 @@ function itemManagement(item) {
     nodeLi.appendChild(nodeBtn);
     nodeLi.appendChild(nodeLinkWeb);
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
-    nodeBtn.onclick = function(){loadTrack(radioItem.title, radioItem.url);};
+    nodeBtn.onclick = function(){loadTrack(radioItem);};
 
     for (var i = 0; i < listGenres.length; i++) {
         if (radioItem.genre.indexOf(listGenres[i]) !== -1) {

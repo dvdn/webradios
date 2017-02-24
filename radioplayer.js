@@ -10,32 +10,22 @@ var playerConfig = {
         "wmode":"transparent",
         "skin":"cassette",
         "width":200,
-        "height":120
+        "height":120,
+        "title":"PBB",
+        "url":"http://pbb.laurentgarnier.com:8000/pbb128",
+        "metadataMode":"icecast",
+        "metadataProxy":"proxy.php"
         };
-var defaultRadio = {
-        title:"PBB",
-        url:"http://pbb.laurentgarnier.com:8000/pbb128"
-        };
-
-var instanceMetadata = new webradioData();
-
-function returnPlayerConfig() {
-    playerConfig.title = defaultRadio.title;
-    playerConfig.url = defaultRadio.url;
-    instanceMetadata.url = defaultRadio.url;
-    return playerConfig;
-}
 
 function returnPlayer(){
-    MRP.insert(returnPlayerConfig());
+    MRP.insert(playerConfig);
 }
 
-function loadTrack(title, url){
-    MRP.setUrl(url);
-    MRP.setTitle(title);
+function loadTrack(radio){
+    MRP.setUrl(radio.url);
+    MRP.setTitle(radio.title);
+    MRP.setMetadataMode(radio.broadcast);
     MRP.play();
-
-    instanceMetadata.url = url;
 }
 
 
