@@ -2922,6 +2922,11 @@ C.prototype = {
                 var b = a.indexOf(' - ', 0);
                 - 1 != b ? (this.artistText.setText(q.substr(a, 0, b)), this.songTitleText.setText(q.substr(a, b + 3, null)))  : (this.artistText.setText(''), this.songTitleText.setText(a));
                 this.lastMetadata = a;
+//---dev
+                console.log(a);
+                this.title = a;
+                this.restoreTitle();
+//---
                 this.callback('metadata', a)
             }
         },

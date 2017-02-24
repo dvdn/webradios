@@ -26,7 +26,7 @@ function itemManagement(item) {
       var broadcast = item.getElementsByTagName("broadcast")[0].childNodes[0].nodeValue;
     }
     catch (e) {
-       console.log(e);
+       // console.log(e);
        var broadcast = "undefined";
     }
 
