@@ -2444,7 +2444,7 @@ Sa.prototype = {
         'icecast' != this.metadataMode && 'streamtheworld' != this.metadataMode && 'shoutcast' != this.metadataMode || null != this.timer || (this.timer = new N(1000 * this.interval), this.timer.run = u(this, this.loop), this.loop())
     },
     loop: function () {
-        console.log("metadataMode : "+this.metadataMode);
+        //console.log("metadataMode : "+this.metadataMode);
         if (this.player.isPlaying()) {
             var a;
             switch (this.metadataMode) {
@@ -2878,8 +2878,7 @@ C.prototype = {
             a.style.top = C.parseInt(b.get('y'), 0) + 'px'
         },
         callback: function (a, b) {
-            null ==
-            b && (b = '0');
+            null == b && (b = '0');
             this.reportEvents && musesCallback(a, b)
         },
         setStatus: function (a) {
@@ -2922,11 +2921,6 @@ C.prototype = {
                 var b = a.indexOf(' - ', 0);
                 - 1 != b ? (this.artistText.setText(q.substr(a, 0, b)), this.songTitleText.setText(q.substr(a, b + 3, null)))  : (this.artistText.setText(''), this.songTitleText.setText(a));
                 this.lastMetadata = a;
-//---dev
-                console.log(a);
-                this.title = a;
-                this.restoreTitle();
-//---
                 this.callback('metadata', a)
             }
         },

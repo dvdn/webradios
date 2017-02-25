@@ -5,7 +5,7 @@
         <url>https://streaming.radionomy.com/4U-Hard-FM</url>
         <genre>rock metal</genre>
         <website>http://www.4urocknmetal.com</website>
-        <broadcast radioUID="1f8e9574-3425-4c22-90d7-b2db2c4fc276">icecast</broadcast>
+        <broadcast radioUID="1f8e9574-3425-4c22-90d7-b2db2c4fc276">radionomy</broadcast>
     </radio>
         <radio>
         <title>4U Classic Rock</title>
@@ -33,7 +33,7 @@
         <url>http://streaming.radionomy.com/ChroniXRadio-</url>
         <genre>rock metal</genre>
         <website>http://www.chronixradio.com/</website>
-        <broadcast radioUID="41ddc629-2b86-431d-b3fd-8953e114fa1c">icecast</broadcast>
+        <broadcast radioUID="41ddc629-2b86-431d-b3fd-8953e114fa1c">radionomy</broadcast>
     </radio>
     <radio>
         <title>Zombie*Radio</title>
@@ -243,7 +243,7 @@
         <url>http://173.192.198.244:8042/;</url>
         <genre>reggae ska dub</genre>
         <website>http://www.azevedo.ca</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Radiorewers</title>

@@ -17,19 +17,19 @@ function loadRadios(xml) {
     window.onload=function(){
         /* Array casting to use forEach */
         Array.from(radioslist).forEach(itemManagement);
+        /* first default title load*/
+        fillDomId("metadata-display", playerConfig.title);
     };
 }
 /* for each radio item, append 'li' element by 'ul' genre */
 function itemManagement(item) {
-
+    var broadcast = "undefined";
     try {
-      var broadcast = item.getElementsByTagName("broadcast")[0].childNodes[0].nodeValue;
+        broadcast = item.getElementsByTagName("broadcast")[0].childNodes[0].nodeValue;
     }
     catch (e) {
        // console.log(e);
-       var broadcast = "undefined";
     }
-
 
     var radioItem = {
             title:item.getElementsByTagName("title")[0].childNodes[0].nodeValue,

@@ -2,7 +2,7 @@
 /* it depends on mrp.js */
 var playerConfig = {
         "codec":"mp3",
-        "elementId": "player-wrapper",
+        "elementId": "player",
         "volume":100,
         "autoplay":true,
         "jsevents":true,
@@ -16,6 +16,14 @@ var playerConfig = {
         "metadataMode":"icecast",
         "metadataProxy":"proxy.php"
         };
+var supportBrodcastList = ["icecast", "shoutcast"];
+
+function musesCallback(event,value){
+    if (event == "metadata"){
+        MRP.setTitle(value);
+        document.getElementById("player").setAttribute("title", value);
+    }
+}
 
 function returnPlayer(){
     MRP.insert(playerConfig);
@@ -23,9 +31,18 @@ function returnPlayer(){
 
 function loadTrack(radio){
     MRP.setUrl(radio.url);
-    MRP.setTitle(radio.title);
-    MRP.setMetadataMode(radio.broadcast);
+    if(supportBrodcastList.indexOf(radio.broadcast)!=-1) {
+        MRP.setMetadataMode(radio.broadcast);
+    } else {
+        MRP.setTitle(radio.title);
+        MRP.showInfo("current song not supported");
+    }
     MRP.play();
+    fillDomId("metadata-display", radio.title);
+}
+
+function fillDomId(elementId, value){
+   document.getElementById(elementId).innerHTML = value;
 }
 
 
