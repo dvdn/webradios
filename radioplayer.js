@@ -2,7 +2,7 @@
 /* it depends on mrp.js */
 var playerConfig = {
         "codec":"mp3",
-        "elementId": "player-wrapper",
+        "elementId": "player",
         "volume":100,
         "autoplay":true,
         "jsevents":true,
@@ -10,25 +10,39 @@ var playerConfig = {
         "wmode":"transparent",
         "skin":"cassette",
         "width":200,
-        "height":120
+        "height":120,
+        "title":"PBB",
+        "url":"http://pbb.laurentgarnier.com:8000/pbb128",
+        "metadataMode":"icecast",
+        "metadataProxy":"proxy.php"
         };
-var defaultRadio = {
-        title:"PBB",
-        url:"http://pbb.laurentgarnier.com:8000/pbb128"
-        };
+var supportBrodcastList = ["icecast", "shoutcast"];
 
-function returnPlayerConfig() {
-    playerConfig.title = defaultRadio.title;
-    playerConfig.url = defaultRadio.url;
-    return playerConfig;
+function musesCallback(event,value){
+    if (event == "metadata"){
+        MRP.setTitle(value);
+        document.getElementById("player").setAttribute("title", value);
+    }
 }
 
 function returnPlayer(){
-    MRP.insert(returnPlayerConfig());
+    MRP.insert(playerConfig);
 }
 
-function loadTrack(title, url){
-    MRP.setUrl(url);
-    MRP.setTitle(title);
+function loadTrack(radio){
+    MRP.setUrl(radio.url);
+    if(supportBrodcastList.indexOf(radio.broadcast)!=-1) {
+        MRP.setMetadataMode(radio.broadcast);
+    } else {
+        MRP.setTitle(radio.title);
+    }
     MRP.play();
+    fillDomId("metadata-display", radio.title);
 }
+
+function fillDomId(elementId, value){
+   document.getElementById(elementId).innerHTML = value;
+}
+
+
+
