@@ -35,7 +35,6 @@ function loadTrack(radio){
         MRP.setMetadataMode(radio.broadcast);
     } else {
         MRP.setTitle(radio.title);
-        MRP.showInfo("current song not supported");
     }
     MRP.play();
     fillDomId("metadata-display", radio.title);

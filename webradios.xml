@@ -75,21 +75,21 @@
         <url>http://tess.fast-serv.com:8580/;</url>
         <genre>african</genre>
         <website>http://www.panafricanallstars.com</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>La Merenguera</title>
         <url>http://streaming.radionomy.com/LaMerengueraCom</url>
         <genre>latino merengue</genre>
         <website>http://www.lamerenguera.com</website>
-        <broadcast></broadcast>
+        <broadcast radioUID="f0d43e4b-5860-47cd-a5e7-d5d793d592c0">radionomy</broadcast>
     </radio>
     <radio>
         <title>Tropical 100 Mix</title>
         <url>http://108.54.234.102:7996/;</url>
         <genre>latino</genre>
         <website>http://www.tropical100.com</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Couleur 3</title>
@@ -117,14 +117,14 @@
         <url>http://ecoutez.radio-libertaire.org:8080/radiolib</url>
         <genre>talk eclectic</genre>
         <website>https://www.radio-libertaire.net</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>Ici et Maintenant</title>
         <url>http://radio.rim952.fr:8000/stream.mp3</url>
         <genre>talk eclectic</genre>
         <website>http://www.icietmaintenant.com</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>Rires et Chansons - collectors</title>
@@ -145,91 +145,91 @@
         <url>http://radio4.pro-fhi.net:9101/live</url>
         <genre>eclectic talk</genre>
         <website>http://www.mauriceradiolibre.com</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
     <title>Bide&amp;Musique</title>
         <url>http://relay1.bide-et-musique.com:9100/;</url>
         <genre>chansons françaises 70's 80's</genre>
         <website>http://www.bide-et-musique.com/</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Limbik Frequencies - Radio Elektro[u]nique</title>
         <url>http://23.254.217.103:8000/256.mp3</url>
         <genre>electronic idm</genre>
         <website>https://www.facebook.com/limbikfreq</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>16BIT.FM I.D.E.A Channel</title>
         <url>http://stream.16bit.fm:8000/idea_mp3_192</url>
         <genre>electronic idm</genre>
         <website>http://16bit.fm</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>16BIT.FM Cafe Channel</title>
         <url>http://stream.16bit.fm:8000/cafe_mp3_192</url>
         <genre>electronic idm</genre>
         <website>http://16bit.fm</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>16BIT.FM Main Channel</title>
         <url>http://stream.16bit.fm:8000/main_mp3_192</url>
         <genre>electronic idm</genre>
         <website>http://16bit.fm</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>[SomaFM] cliqhop idm</title>
         <url>http://ice2.somafm.com/cliqhop-128-mp3</url>
         <genre>electronic idm</genre>
         <website>http://somafm.com/cliqhop/</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>plusfm.net</title>
-        <url>http://195.154.72.66/;stream.mp3</url>
+        <url>http://195.154.72.66/;</url>
         <genre>electronic</genre>
         <website>http://www.plusfm.net</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>ETN 2 house</title>
         <url>http://www.etn.fm:8200/house-mp3-320</url>
         <genre>electronic house</genre>
         <website>http://etn.fm</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>ETN 1 Trance</title>
         <url>http://ch1relay1.etn.fm:8130/;</url>
         <genre>electronic trance</genre>
         <website>http://etn.fm</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Friskyradio</title>
         <url>http://stream2.friskyradio.com/frisky_mp3_hi</url>
         <genre>electronic</genre>
         <website>https://www.friskyradio.com</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Friskyradio Deep</title>
         <url>http://deep.friskyradio.com/friskydeep_aachi</url>
         <genre>electronic</genre>
         <website>https://www.friskyradio.com</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Friskyradio Chill</title>
         <url>http://chill.friskyradio.com/friskychill_mp3_high</url>
         <genre>electronic</genre>
         <website>https://www.friskyradio.com</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
         <radio>
         <title>HouseTime.FM</title>
@@ -250,14 +250,14 @@
         <url>http://serwery-shoutcast.net:9966/;</url>
         <genre>eclectic</genre>
         <website>http://radiorewers.pl</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>BLACK SOUL RHYTHMS RADIO</title>
         <url>http://pstnet5.shoutcastnet.com:50020/;</url>
         <genre>soul</genre>
         <website>http://blacksoulrhythms.com</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Diva Radio FUNK</title>
@@ -271,27 +271,27 @@
         <url>http://178.63.62.145/;</url>
         <genre>electronic</genre>
         <website>http://www.frenchkissfm.com</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>KIF Radio</title>
         <url>http://94.23.222.12:8003/stream</url>
         <genre>funk house</genre>
         <website>http://www.kifradio.com</website>
-        <broadcast></broadcast>
+        <broadcast>icecast</broadcast>
     </radio>
     <radio>
         <title>Movie Magic</title>
         <url>http://107.175.72.133:8064/;</url>
         <genre>soundtracks</genre>
         <website>http://www.ampedfm.com/</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
     <radio>
         <title>Venice classic radio</title>
         <url>http://109.123.116.202:8022/;</url>
         <genre>classic</genre>
         <website>http://www.veniceclassicradio.eu</website>
-        <broadcast></broadcast>
+        <broadcast>shoutcast</broadcast>
     </radio>
 </radioslist>

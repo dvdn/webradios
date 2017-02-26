@@ -3,33 +3,33 @@ margin:0;
 padding:0;
 }
 a:link{
-    text-decoration: none;
+    text-decoration:none;
 }
 body{
-    background-color: white;
-    font-family: sans-serif;
+    background-color:white;
+    font-family:sans-serif;
 }
 header, content, footer{
     display:block;
-    width: 90%;
-    max-width: 960px;
-    margin: auto;
+    width:90%;
+    max-width:960px;
+    margin:auto;
 }
 header, content{
-    text-align: center;
+    text-align:center;
 }
 footer{
-    line-height: 5em;
+    line-height:5em;
     color:grey;
 }
 header p{
-    font-size: 0.8em;
+    font-size:0.8em;
     font-style:italic;
-    color: grey;
+    color:grey;
 }
 #player-wrapper{
-    width: 100%;
-    margin: 2em auto 1em;
+    width:100%;
+    margin:2em auto 1em;
 }
     #player .musesStyleReset{
         margin:auto;
@@ -63,34 +63,34 @@ button{
     cursor:pointer;
 }
     button:hover{
-        background: #1e62d0;
+        background:#1e62d0;
     }
     button:active{
         position:relative;
         top:1px;
-        background: #14428b;
+        background:#14428b;
     }
 /* genre ordering */
 section{
-    display: inline-block;
-    width: 100%;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    display:inline-block;
+    width:100%;
+    padding-bottom:1em;
+    padding-top:1em;
     float:left;
-    border-bottom: 1px dotted grey;
-    text-align: left;
+    border-bottom:1px dotted grey;
+    text-align:left;
 }
 section:last-child{
     border-bottom:0;
 }
     section .list-heading{
         width:10%;
-        font-size: 0.8em;
+        font-size:0.8em;
         color:grey;
     }
     section ul{
         width:90%;
-        list-style-type: none;
+        list-style-type:none;
     }
     section .list-heading, section ul, section li{
         float:left;
@@ -100,15 +100,15 @@ section:last-child{
     }
 
     section li a.website-link{
-        display: block;
-        width: 25%;
-        margin-left: 67%;
-        font-size: 0.6em;
-        color: grey;
-        text-align: center;
-        border-bottom: 1px dotted grey;
-        border-left: 1px dotted grey;
-        border-right: 1px dotted grey;
+        display:block;
+        width:25%;
+        margin-left:67%;
+        font-size:0.6em;
+        color:grey;
+        text-align:center;
+        border-bottom:1px dotted grey;
+        border-left:1px dotted grey;
+        border-right:1px dotted grey;
     }
     section li a.website-link:hover{
         color:#337fed
