@@ -10,21 +10,13 @@ var playerConfig = {
         "wmode":"transparent",
         "skin":"cassette",
         "width":200,
-        "height":120
+        "height":120,
+        "title":"PBB",
+        "url":"http://pbb.laurentgarnier.com:8000/pbb128"
         };
-var defaultRadio = {
-        title:"PBB",
-        url:"http://pbb.laurentgarnier.com:8000/pbb128"
-        };
-
-function returnPlayerConfig() {
-    playerConfig.title = defaultRadio.title;
-    playerConfig.url = defaultRadio.url;
-    return playerConfig;
-}
 
 function returnPlayer(){
-    MRP.insert(returnPlayerConfig());
+    MRP.insert(playerConfig);
 }
 
 function loadTrack(title, url){
