@@ -128,7 +128,21 @@
     </radio>
     <radio>
         <title>Rires et Chansons - collectors</title>
-        <url>http://185.52.127.172/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1484388999</url>
+        <url>http://185.52.127.131/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916611</url>
+        <genre>rires talk</genre>
+        <website>http://www.rireetchansons.fr</website>
+        <broadcast></broadcast>
+    </radio>
+    <radio>
+        <title>Rires et Chansons - canulars</title>
+        <url>http://185.52.127.159/fr/30413/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489917110</url>
+        <genre>rires talk</genre>
+        <website>http://www.rireetchansons.fr</website>
+        <broadcast></broadcast>
+    </radio>
+    <radio>
+        <title>Rires et Chansons - sketches</title>
+        <url>http://185.52.127.131/fr/30407/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916962</url>
         <genre>rires talk</genre>
         <website>http://www.rireetchansons.fr</website>
         <broadcast></broadcast>
@@ -240,7 +254,7 @@
     </radio>
     <radio>
         <title>Scratch radio</title>
-        <url>http://173.192.198.244:8042/;</url>
+        <url>http://144.217.203.226:8042/;</url>
         <genre>reggae ska dub</genre>
         <website>http://www.azevedo.ca</website>
         <broadcast>shoutcast</broadcast>
