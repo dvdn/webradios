@@ -10,7 +10,9 @@ A web page to group and play all your favorite webradios !
 ## Usage
 
 Clone or download this repository on your server.
-Rename '[tmp.config.js](https://github.com/dvdn/webradios/blob/master/tmp.config.js)' into ´config.js´.
+
+Rename '[tmp.config.js](https://github.com/dvdn/webradios/blob/master/tmp.config.js)' into `config.js`.
+
 Job done !
 
 ### Customization
@@ -19,7 +21,7 @@ Choose your **skin player** between all [muses skins](https://www.muses.org/offi
 
 Add/remove **webradios** by editing '[webradios.xml](https://github.com/dvdn/webradios/blob/master/webradios.xml)'
 
-Edit which webradio will start at page opening by editing ´config.js´.
+Edit which webradio will start at page opening by editing `config.js`.
 
 ## Preview
 See preview > [webradios](http://dvdn.free.fr/webradios/)
