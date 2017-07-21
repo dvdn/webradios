@@ -1,5 +1,5 @@
 /* Radio player management */
-/* it depends on mrp.js */
+/* it depends on mrp.js and config.js*/
 var playerConfig = {
         "codec":"mp3",
         "elementId": "player-wrapper",
@@ -11,8 +11,8 @@ var playerConfig = {
         "skin":"cassette",
         "width":200,
         "height":120,
-        "title":"PBB",
-        "url":"http://pbb.laurentgarnier.com:8000/pbb128"
+        "title":webradioAtOpening.title,
+        "url":webradioAtOpening.url
         };
 
 function returnPlayer(){
