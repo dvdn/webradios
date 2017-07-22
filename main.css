@@ -49,6 +49,7 @@ button{
     -webkit-border-radius:6px;
     -moz-border-radius:6px;
     border-radius:6px;
+    border: 3px outset #3d94f6;
     color:#ffffff;
     font-size:0.8em;
     font-weight:bold;
@@ -59,16 +60,16 @@ button{
 }
     button:hover{
         background: #1e62d0;
+        border: 3px solid #1e62d0;
     }
     button:active{
+        background: #14428b;
+        border: 3px inset #3d94f6;
         position:relative;
         top:1px;
-        background: #14428b;
     }
     button.onair{
-        color: yellow;
-        font-style: italic;
-        letter-spacing: 3px;
+        color: black;
     }
 
 /* genre ordering */
