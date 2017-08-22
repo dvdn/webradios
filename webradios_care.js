@@ -1,32 +1,29 @@
-/* XML management */
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        loadRadios(this);
-    }
-};
-xhttp.open("GET", "webradios.xml", true);
-xhttp.send();
-
+//json file management
 var listGenres = ["rock", "electronic", "funk", "reggae", "african", "latino", "soundtracks", "talk"];
 
-function loadRadios(xml) {
-    var xmlDoc = xml.responseXML;
-    var radioslist = xmlDoc.getElementsByTagName("radio");
-    /* wait for all DOM elements */
-    window.onload=function(){
-        /* Array casting to use forEach */
-        Array.from(radioslist).forEach(itemManagement);
-    };
+function readDataFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
 }
-/* for each radio item, append 'li' element by 'ul' genre */
-function itemManagement(item) {
-    var radioItem = {
-            title:item.getElementsByTagName("title")[0].childNodes[0].nodeValue,
-            url:item.getElementsByTagName("url")[0].childNodes[0].nodeValue,
-            genre:item.getElementsByTagName("genre")[0].childNodes[0].nodeValue,
-            website:item.getElementsByTagName("website")[0].childNodes[0].nodeValue
-            };
+
+//read webradios data
+readDataFile("webradios.json", function(text){
+    var data = JSON.parse(text);
+    //wait for all DOM elements
+    window.onload=function(){
+        data.webradios.forEach(itemManagement);
+    };
+});
+
+//for each radio item, append 'li' element by 'ul' genre
+function itemManagement(radioItem) {
     var nodeLi = document.createElement("li");
     var nodeBtn = document.createElement("button");
     var nodeLinkWeb = document.createElement("a");
@@ -47,10 +44,11 @@ function itemManagement(item) {
     for (var i = 0; i < listGenres.length; i++) {
         if (radioItem.genre.indexOf(listGenres[i]) !== -1) {
             document.getElementsByClassName(listGenres[i])[0].appendChild(nodeLi);
-            /* break if processed */
+            //break if processed
             return;
         }
-        /* else default */
+        //else default
         document.getElementsByClassName("other")[0].appendChild(nodeLi);
     }
+
 }

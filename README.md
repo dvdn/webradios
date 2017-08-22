@@ -19,7 +19,7 @@ Job done !
 Choose your **skin player** between all [muses skins](https://www.muses.org/official-skins) and edit 'playerConfig' in [radioplayer.js
 ](https://github.com/dvdn/webradios/blob/master/radioplayer.js) as you want
 
-Add/remove **webradios** by editing '[webradios.xml](https://github.com/dvdn/webradios/blob/master/webradios.xml)'
+Add/remove **webradios** by editing '[webradios.json](https://github.com/dvdn/webradios/blob/master/webradios.json)'
 
 Decide which webradio will start at page opening by editing `config.js`.
 
