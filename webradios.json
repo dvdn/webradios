@@ -71,10 +71,10 @@
         },
         {
             "title": "NoLife-radio.com",
-            "url": "http://radio.nolife-radio.com:9000/stream;",
+            "url": "http://radio.nolife-radio.com:9000/stream",
             "genre": "electronic video-game",
             "website": "http://nolife-radio.com",
-            "broadcast": ""
+            "broadcast": "icecast"
         },
         {
             "title": "Pan African Allstars",
