@@ -1,0 +1,321 @@
+{
+    "webradios": [
+        {
+            "title": "4U Rock N Metal",
+            "url": "https://streaming.radionomy.com/4U-Hard-FM",
+            "genre": "rock metal",
+            "website": "http://www.4urocknmetal.com",
+            "broadcast": {
+                "_radioUID": "1f8e9574-3425-4c22-90d7-b2db2c4fc276",
+                "__text": "radionomy"
+            }
+        },
+        {
+            "title": "4U Classic Rock",
+            "url": "http://str4uice.streamakaci.com/4uclassicrock.mp3",
+            "genre": "rock classic",
+            "website": "https://www.4urock.com/",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "La Grosse Radio METAL",
+            "url": "http://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3",
+            "genre": "rock metal",
+            "website": "http://www.lagrosseradio.com",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Prog Palace Radio",
+            "url": "http://199.168.117.61:8006/1?cb=278134.mp3",
+            "genre": "rock progressive",
+            "website": "http://www.progpalaceradio.com/",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "ChroniX Aggression - Loud & Clear",
+            "url": "http://streaming.radionomy.com/ChroniXRadio-",
+            "genre": "rock metal",
+            "website": "http://www.chronixradio.com/",
+            "broadcast": {
+                "_radioUID": "41ddc629-2b86-431d-b3fd-8953e114fa1c",
+                "__text": "radionomy"
+            }
+        },
+        {
+            "title": "Zombie*Radio",
+            "url": "http://74.67.225.17:420/;",
+            "genre": "rock metal",
+            "website": "http://www.zombie-radio.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Radio Neo",
+            "url": "http://www.radioneo.org:8000/radioneo",
+            "genre": "rock",
+            "website": "http://www.radioneo.org",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "PBB",
+            "url": "http://pbb.laurentgarnier.com:8000/pbb128",
+            "genre": "eclectic",
+            "website": "http://laurentgarnier.com",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Kohina",
+            "url": "http://stream.nute.net:8000/kohina/stream.ogg",
+            "genre": "electronic video-game",
+            "website": "http://www.kohina.com",
+            "broadcast": ""
+        },
+        {
+            "title": "NoLife-radio.com",
+            "url": "http://radio.nolife-radio.com:8000/;",
+            "genre": "electronic video-game",
+            "website": "http://nolife-radio.com",
+            "broadcast": ""
+        },
+        {
+            "title": "Pan African Allstars",
+            "url": "http://tess.fast-serv.com:8580/;",
+            "genre": "african",
+            "website": "http://www.panafricanallstars.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "La Merenguera",
+            "url": "http://streaming.radionomy.com/LaMerengueraCom",
+            "genre": "latino merengue",
+            "website": "http://www.lamerenguera.com",
+            "broadcast": {
+                "_radioUID": "f0d43e4b-5860-47cd-a5e7-d5d793d592c0",
+                "__text": "radionomy"
+            }
+        },
+        {
+            "title": "Tropical 100 Mix",
+            "url": "http://108.54.234.102:7996/;",
+            "genre": "latino",
+            "website": "http://www.tropical100.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Couleur 3",
+            "url": "http://stream.srg-ssr.ch/m/couleur3/mp3_128",
+            "genre": "eclectic",
+            "website": "http://www.rts.ch/couleur3",
+            "broadcast": ""
+        },
+        {
+            "title": "France Culture",
+            "url": "http://direct.franceculture.fr/live/franceculture-midfi.mp3",
+            "genre": "talk eclectic",
+            "website": "https://www.franceculture.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "France Inter",
+            "url": "http://direct.franceinter.fr/live/franceinter-midfi.mp3",
+            "genre": "talk eclectic",
+            "website": "https://www.franceinter.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "Radio Libertaire",
+            "url": "http://ecoutez.radio-libertaire.org:8080/radiolib",
+            "genre": "talk eclectic",
+            "website": "https://www.radio-libertaire.net",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Ici et Maintenant",
+            "url": "http://radio.rim952.fr:8000/stream.mp3",
+            "genre": "talk eclectic",
+            "website": "http://www.icietmaintenant.com",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Rires et Chansons - collectors",
+            "url": "http://185.52.127.131/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916611",
+            "genre": "rires talk",
+            "website": "http://www.rireetchansons.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "Rires et Chansons - canulars",
+            "url": "http://185.52.127.159/fr/30413/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489917110",
+            "genre": "rires talk",
+            "website": "http://www.rireetchansons.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "Rires et Chansons - sketches",
+            "url": "http://185.52.127.131/fr/30407/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916962",
+            "genre": "rires talk",
+            "website": "http://www.rireetchansons.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "Nostalgie",
+            "url": "http://185.52.127.168/fr/40106/aac_64.mp3",
+            "genre": "chansons françaises",
+            "website": "http://www.nostalgie.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "Maurice Radio Libre",
+            "url": "http://radio4.pro-fhi.net:9101/live",
+            "genre": "eclectic talk",
+            "website": "http://www.mauriceradiolibre.com",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Bide&Musique",
+            "url": "http://relay1.bide-et-musique.com:9100/;",
+            "genre": "chansons françaises 70's 80's",
+            "website": "http://www.bide-et-musique.com/",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Limbik Frequencies - Radio Elektro[u]nique",
+            "url": "http://23.254.217.103:8000/256.mp3",
+            "genre": "electronic idm",
+            "website": "https://www.facebook.com/limbikfreq",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "16BIT.FM I.D.E.A Channel",
+            "url": "http://stream.16bit.fm:8000/idea_mp3_192",
+            "genre": "electronic idm",
+            "website": "http://16bit.fm",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "16BIT.FM Cafe Channel",
+            "url": "http://stream.16bit.fm:8000/cafe_mp3_192",
+            "genre": "electronic idm",
+            "website": "http://16bit.fm",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "16BIT.FM Main Channel",
+            "url": "http://stream.16bit.fm:8000/main_mp3_192",
+            "genre": "electronic idm",
+            "website": "http://16bit.fm",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "[SomaFM] cliqhop idm",
+            "url": "http://ice2.somafm.com/cliqhop-128-mp3",
+            "genre": "electronic idm",
+            "website": "http://somafm.com/cliqhop/",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "plusfm.net",
+            "url": "http://195.154.72.66/;",
+            "genre": "electronic",
+            "website": "http://www.plusfm.net",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "ETN 2 house",
+            "url": "http://www.etn.fm:8200/house-mp3-320",
+            "genre": "electronic house",
+            "website": "http://etn.fm",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "ETN 1 Trance",
+            "url": "http://ch1relay1.etn.fm:8130/;",
+            "genre": "electronic trance",
+            "website": "http://etn.fm",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Friskyradio",
+            "url": "http://stream2.friskyradio.com/frisky_mp3_hi",
+            "genre": "electronic",
+            "website": "https://www.friskyradio.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Friskyradio Deep",
+            "url": "http://deep.friskyradio.com/friskydeep_aachi",
+            "genre": "electronic",
+            "website": "https://www.friskyradio.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Friskyradio Chill",
+            "url": "http://chill.friskyradio.com/friskychill_mp3_high",
+            "genre": "electronic",
+            "website": "https://www.friskyradio.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "HouseTime.FM",
+            "url": "http://lw1.mp3.tb-group.fm:8080/ht.mp3",
+            "genre": "electronic house",
+            "website": "http://www.housetime.fm/",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Scratch radio",
+            "url": "http://144.217.203.226:8042/;",
+            "genre": "reggae ska dub",
+            "website": "http://www.azevedo.ca",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Radiorewers",
+            "url": "http://serwery-shoutcast.net:9966/;",
+            "genre": "eclectic",
+            "website": "http://radiorewers.pl",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "BLACK SOUL RHYTHMS RADIO",
+            "url": "http://pstnet5.shoutcastnet.com:50020/;",
+            "genre": "soul",
+            "website": "http://blacksoulrhythms.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Diva Radio FUNK",
+            "url": "http://163.172.119.118:10780/;",
+            "genre": "funk",
+            "website": "http://deevaradio.net",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "..:: French Kiss FM ::..",
+            "url": "http://178.63.62.145/;",
+            "genre": "electronic",
+            "website": "http://www.frenchkissfm.com",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "KIF Radio",
+            "url": "http://94.23.222.12:8003/stream",
+            "genre": "funk house",
+            "website": "http://www.kifradio.com",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Movie Magic",
+            "url": "http://107.175.72.133:8064/;",
+            "genre": "soundtracks",
+            "website": "http://www.ampedfm.com/",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Venice classic radio",
+            "url": "http://109.123.116.202:8022/;",
+            "genre": "classic",
+            "website": "http://www.veniceclassicradio.eu",
+            "broadcast": "shoutcast"
+        }
+    ]
+}
