@@ -1,3 +1,4 @@
+//json file management
 var listGenres = ["rock", "electronic", "funk", "reggae", "african", "latino", "soundtracks", "talk"];
 
 function readDataFile(file, callback) {
@@ -15,13 +16,13 @@ function readDataFile(file, callback) {
 //read webradios data
 readDataFile("webradios.json", function(text){
     var data = JSON.parse(text);
-    /* wait for all DOM elements */
+    //wait for all DOM elements
     window.onload=function(){
         data.webradios.forEach(itemManagement);
     };
 });
 
-/* for each radio item, append 'li' element by 'ul' genre */
+//for each radio item, append 'li' element by 'ul' genre
 function itemManagement(radioItem) {
     var nodeLi = document.createElement("li");
     var nodeBtn = document.createElement("button");
@@ -43,10 +44,10 @@ function itemManagement(radioItem) {
     for (var i = 0; i < listGenres.length; i++) {
         if (radioItem.genre.indexOf(listGenres[i]) !== -1) {
             document.getElementsByClassName(listGenres[i])[0].appendChild(nodeLi);
-            /* break if processed */
+            //break if processed
             return;
         }
-        /* else default */
+        //else default
         document.getElementsByClassName("other")[0].appendChild(nodeLi);
     }
 

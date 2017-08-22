@@ -1,5 +1,5 @@
-/* Radio player management */
-/* it depends on mrp.js and config.js*/
+//Radio player management
+//it depends on mrp.js and config.js
 var playerConfig = {
         "codec":"mp3",
         "elementId": "player-wrapper",
