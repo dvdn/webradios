@@ -1,5 +1,5 @@
 //json file management
-var listGenres = ["rock", "electronic", "funk", "reggae", "african", "latino", "soundtracks", "talk"];
+var listGenres = ["rock", "electronic", "funk", "reggae", "african", "latino", "classical", "soundtracks", "talk"];
 
 function readDataFile(file, callback) {
     var rawFile = new XMLHttpRequest();

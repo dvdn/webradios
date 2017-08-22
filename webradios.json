@@ -313,9 +313,23 @@
         {
             "title": "Venice classic radio",
             "url": "http://109.123.116.202:8022/;",
-            "genre": "classic",
+            "genre": "classical",
             "website": "http://www.veniceclassicradio.eu",
             "broadcast": "shoutcast"
+        },
+        {
+            "title": "France Musique",
+            "url": "http://chai5she.cdn.dvmr.fr/francemusiqueeasyclassique-hifi.mp3?ID=pd569ib97j",
+            "genre": "classical",
+            "website": "https://www.francemusique.fr/",
+            "broadcast": ""
+        },
+        {
+            "title": "Radio Classique",
+            "url": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3?ID=pd569ib97j",
+            "genre": "classical",
+            "website": "https://www.francemusique.fr/",
+            "broadcast": ""
         }
     ]
 }
