@@ -1,9 +1,17 @@
 h1, p, ul, li{
-margin:0;
-padding:0;
+    margin:0;
+    padding:0;
+}
+ul, li{
+    list-style: none;
 }
 a:link{
     text-decoration: none;
+}
+button{
+    border:none;
+    padding: 0;
+    margin: 0;
 }
 body{
     background-color: white;
@@ -12,7 +20,7 @@ body{
 header, content, footer{
     display:block;
     width: 90%;
-    max-width: 960px;
+    max-width: 1440px;
     margin: auto;
 }
 header, content{
@@ -26,51 +34,47 @@ header p{
     font-style:italic;
     color: grey;
 }
-#player-wrapper{
+#player-wrapper, #webradio-infos{
     width: 100%;
-    margin: 2em auto;
 }
+    #player-wrapper{
+        margin-top: 2em;
+    }
     #player-wrapper .musesStyleReset{
-        margin:auto;
+       margin: auto;
+    }
+    #webradio-infos li{
+        width: 50%;
+        line-height:2em;
+        font-family: "Courier New", sans-serif;
+        margin: 1em auto;
+        color: grey;
     }
 #webradios-lists{
     min-height: 500px;
     margin:auto;
 }
+
 button{
-    width: 200px;
-    height:4em;
-    margin:0.5em;
-    padding:0.5em;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
-    background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
-    background-color:#3d94f6;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-    border: 3px outset #3d94f6;
-    color:#ffffff;
+    width: 190px;
+    height:50px;
+    margin:0 7px;
     font-size:0.8em;
     font-weight:bold;
-    font-style:normal;
-    text-decoration:none;
-    text-align:center;
-    cursor:pointer;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+    background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+    border-radius: 5px;
+    box-shadow: 0 5px #336;
+    color: #fff;
 }
-    button:hover{
-        background: #1e62d0;
-        border: 3px solid #1e62d0;
-    }
-    button:active{
-        background: #14428b;
-        border: 3px inset #3d94f6;
-        position:relative;
-        top:1px;
-    }
-    button.onair{
-        color: black;
-    }
+button:hover{
+    background: #1e62d0;
+}
+button:active{
+    background: #1e62d0;
+    box-shadow: none;
+    transform: translateY(5px);
+}
 
 /* genre ordering */
 section{
@@ -86,12 +90,12 @@ section:last-child{
     border-bottom:0;
 }
     section .list-heading{
-        width:10%;
+        width:12%;
         font-size: 0.8em;
         color:grey;
     }
     section ul{
-        width:90%;
+        width:88%;
         list-style-type: none;
     }
     section .list-heading, section ul, section li{
@@ -104,6 +108,7 @@ section:last-child{
     section li a.website-link{
         display: block;
         width: 25%;
+        margin-top: 6px;
         margin-left: 67%;
         font-size: 0.6em;
         color: grey;

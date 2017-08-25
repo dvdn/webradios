@@ -23,4 +23,5 @@ function loadTrack(title, url){
     MRP.setUrl(url);
     MRP.setTitle(title);
     MRP.play();
+    document.getElementsByClassName('webradio-title')[0].innerHTML=title;
 }
