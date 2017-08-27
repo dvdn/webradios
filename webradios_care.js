@@ -17,9 +17,15 @@ function readDataFile(file, callback) {
 readDataFile("webradios.json", function(text){
     var data = JSON.parse(text);
     //wait for all DOM elements
-    window.onload=function(){
+    if(document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded',afterDOMLoaded);
+    } else {
+        afterDOMLoaded();
+    }
+
+    function afterDOMLoaded(){
         data.webradios.forEach(itemManagement);
-    };
+    }
 });
 
 //for each radio item, append 'li' element by 'ul' genre
