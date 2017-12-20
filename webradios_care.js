@@ -1,5 +1,27 @@
-//json file management
-var listGenres = ["rock", "electronic", "funk", "reggae", "african", "latino", "classical", "soundtracks", "talk"];
+//sections for the Dom
+var genresSectionsList = {
+    "rock":"Rock",
+    "electronic":"Electronique",
+    "funk":"Funk",
+    "reggae":"Reggea, Ska",
+    "african":"African",
+    "latino":"Latino",
+    "soundtracks":"Bandes originales",
+    "talk":"Conversations",
+    "other":"Divers",
+}
+
+function returnSections() {
+    var domBegin = '<section><h2 class="list-heading">';
+    var domBetween ='</h2><ul class="';
+    var domEnd = '"></ul></section>';
+    var targetElement = 'webradios-lists';
+    var innerHTMLstr = "";
+    for (property in genresSectionsList) {
+        innerHTMLstr += domBegin+genresSectionsList[property]+domBetween+property+domEnd;
+    }
+    document.getElementById(targetElement).innerHTML = innerHTMLstr;
+}
 
 function readDataFile(file, callback) {
     var rawFile = new XMLHttpRequest();
@@ -47,9 +69,9 @@ function itemManagement(radioItem) {
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
     nodeBtn.onclick = function(){loadTrack(radioItem.title, radioItem.url);};
 
-    for (var i = 0; i < listGenres.length; i++) {
-        if (radioItem.genre.indexOf(listGenres[i]) !== -1) {
-            document.getElementsByClassName(listGenres[i])[0].appendChild(nodeLi);
+    for (property in genresSectionsList) {
+        if (radioItem.genre.indexOf(property) !== -1) {
+            document.getElementsByClassName(property)[0].appendChild(nodeLi);
             //break if processed
             return;
         }
