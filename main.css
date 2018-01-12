@@ -27,7 +27,8 @@ header{
     left: 0;
     top: 0;
     background: white;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid darkgrey;
+    box-shadow: 0 1px 3px grey;
 }
 footer, content{
     display:block;
