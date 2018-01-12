@@ -1,4 +1,4 @@
-h1, p, ul, li, header, content, footer{
+h1, p, ul, li{
     margin:0;
     padding:0;
 }
@@ -37,7 +37,6 @@ footer, content{
     margin: auto;
 }
 footer{
-    bottom: 0;
     color:grey;
 }
 header p{
