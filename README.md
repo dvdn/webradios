@@ -24,4 +24,4 @@ Add/remove **webradios** by editing '[webradios.json](https://github.com/dvdn/we
 Decide which webradio will start at page opening by editing `config.js`.
 
 ## Preview
-See preview > [webradios](http://dvdn.free.fr/webradios/)
+See preview > [webradios](http://dvdn.online.fr/webradios/)
