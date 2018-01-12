@@ -1,6 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
     <title>Webradios sweet selection</title>
     <script type="text/javascript" src="config.js"></script>
     <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
@@ -13,66 +15,24 @@
     <header>
         <h1>webradios sweet selection</h1>
         <p>Cliquez sur la radio que vous souhaitez &eacutecouter</p>
-    </header>
-    <content>
         <div id="player-wrapper">
-            emplacement du player
-            <script>returnPlayer();</script>
+            stream player
+            <script type="text/javascript">returnPlayer();</script>
         </div>
         <ul id="webradio-infos">
             <li class="webradio-title">...</li>
         </ul>
+    </header>
+    <content>
+
         <div id="webradios-lists">
-            <section>
-                <h2 class="list-heading">Rock</h2>
-                <ul class="rock">
-                </ul>
-            </section>
-            <section>
-                <h2 class="list-heading">Electronique</h2>
-                <ul class="electronic">
-                </ul>
-            </section>
-            <section>
-                <h2 class="list-heading">Funk</h2>
-                <ul class="funk">
-                </ul>
-            </section>
-            <section>
-                <h2 class="list-heading">Reggea, Ska</h2>
-                <ul class="reggae">
-                </ul>
-            </section>
-            <section>
-                <h2 class="list-heading">African, Latino</h2>
-                <ul class="african latino">
-                </ul>
-            </section>
-            <section>
-                <h2 class="list-heading">Classique</h2>
-                <ul class="classical">
-                </ul>
-            </section>
-            <section>
-                <h2 class="list-heading">Bandes originales</h2>
-                <ul class="soundtracks">
-                </ul>
-            </section>
-            <section>
-                <h2 class="list-heading">Conversations</h2>
-                <ul class="talk">
-                </ul>
-            </section>
-             <section>
-                <h2 class="list-heading">Divers</h2>
-                <ul class="other">
-                </ul>
-            </section>
+            webradios list
+            <script type="text/javascript">returnSections();</script>
         </div>
     </content>
     <footer>
         <small>
-            2017 // source code <a href="https://github.com/dvdn/webradios" target="_blank">dvdn/webradios</a>
+            2018 // source code <a href="https://github.com/dvdn/webradios" target="_blank">dvdn/webradios</a>
         </small>
     </footer>
 </body>

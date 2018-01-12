@@ -17,14 +17,25 @@ body{
     background-color: white;
     font-family: sans-serif;
 }
-header, content, footer{
+header, content{
+    text-align: center;
+
+}
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid darkgrey;
+    box-shadow: 0 1px 3px grey;
+}
+footer, content{
     display:block;
+    padding-top: 280px;
     width: 90%;
     max-width: 1440px;
     margin: auto;
-}
-header, content{
-    text-align: center;
 }
 footer{
     color:grey;
@@ -41,7 +52,7 @@ header p{
         margin-top: 2em;
     }
     #player-wrapper .musesStyleReset{
-       margin: auto;
+        margin: auto;
     }
     #webradio-infos li{
         width: 50%;
