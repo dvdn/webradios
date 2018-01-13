@@ -24,10 +24,12 @@
         </ul>
     </header>
     <content>
-
         <div id="webradios-lists">
             webradios list
-            <script type="text/javascript">returnSections();</script>
+            <script type="text/javascript">
+                returnSections();
+                readDataFile("webradios.json", displayItems);
+            </script>
         </div>
     </content>
     <footer>

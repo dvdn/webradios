@@ -35,8 +35,7 @@ function readDataFile(file, callback) {
     rawFile.send(null);
 }
 
-//read webradios data
-readDataFile("webradios.json", function(text){
+function displayItem(text){
     var data = JSON.parse(text);
     //wait for all DOM elements
     if(document.readyState === 'loading') {
@@ -48,7 +47,7 @@ readDataFile("webradios.json", function(text){
     function afterDOMLoaded(){
         data.webradios.forEach(itemManagement);
     }
-});
+}
 
 //for each radio item, append 'li' element by 'ul' genre
 function itemManagement(radioItem) {
@@ -80,3 +79,5 @@ function itemManagement(radioItem) {
     }
 
 }
+
+
