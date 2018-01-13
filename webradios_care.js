@@ -23,19 +23,7 @@ function returnSections() {
     document.getElementById(targetElement).innerHTML = innerHTMLstr;
 }
 
-function readDataFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
-        }
-    }
-    rawFile.send(null);
-}
-
-function displayItem(text){
+function displayItems(text){
     var data = JSON.parse(text);
     //wait for all DOM elements
     if(document.readyState === 'loading') {
@@ -47,6 +35,18 @@ function displayItem(text){
     function afterDOMLoaded(){
         data.webradios.forEach(itemManagement);
     }
+}
+
+function readDataFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
 }
 
 //for each radio item, append 'li' element by 'ul' genre
