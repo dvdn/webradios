@@ -11,7 +11,7 @@ function returnBrokenUrls(text){
     }
 }
 
-//for each radio item, append 'li' element by 'ul' genre
+//put each radio item in table
 function itemCheck(radioItem) {
     var nodeTable = document.getElementsByTagName("table")[0];
     var nodeTr = document.createElement("tr");

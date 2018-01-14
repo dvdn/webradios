@@ -11,6 +11,7 @@ var genresSectionsList = {
     "other":"Divers",
 }
 
+//return html genres sections
 function returnSections() {
     var domBegin = '<section><h2 class="list-heading">';
     var domBetween ='</h2><ul class="';
@@ -37,6 +38,7 @@ function displayItems(text){
     }
 }
 
+//read json
 function readDataFile(file, callback) {
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
