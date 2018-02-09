@@ -11,6 +11,7 @@ var genresSectionsList = {
     "other":"Divers",
 }
 
+//return html genres sections
 function returnSections() {
     var domBegin = '<section><h2 class="list-heading">';
     var domBetween ='</h2><ul class="';
@@ -23,20 +24,7 @@ function returnSections() {
     document.getElementById(targetElement).innerHTML = innerHTMLstr;
 }
 
-function readDataFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
-        }
-    }
-    rawFile.send(null);
-}
-
-//read webradios data
-readDataFile("webradios.json", function(text){
+function displayItems(text){
     var data = JSON.parse(text);
     //wait for all DOM elements
     if(document.readyState === 'loading') {
@@ -48,7 +36,20 @@ readDataFile("webradios.json", function(text){
     function afterDOMLoaded(){
         data.webradios.forEach(itemManagement);
     }
-});
+}
+
+//read json
+function readDataFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
 
 //for each radio item, append 'li' element by 'ul' genre
 function itemManagement(radioItem) {
@@ -80,3 +81,5 @@ function itemManagement(radioItem) {
     }
 
 }
+
+

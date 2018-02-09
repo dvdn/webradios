@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Webradios check</title>
+    <script type="text/javascript" src="../webradios_care.js"></script>
+    <script type="text/javascript" src="webradios_check.js"></script>
+    <link href="../favicon.ico" rel="shortcut icon">
+</head>
+<body>
+    <header>
+        <h1>webradios sweet selection</h1>
+        <p>Check page</p>
+    </header>
+    <content>
+        <div id="webradios-lists">
+            <table><tr><td>Name</td><td>Url stream</td><td>Validity</td></tr></table>
+            <script type="text/javascript">
+                    readDataFile("../webradios.json", returnBrokenUrls);
+            </script>
+        </div>
+    </content>
+    <footer>
+        <small>
+            2018 // source code <a href="https://github.com/dvdn/webradios" target="_blank">dvdn/webradios</a>
+        </small>
+    </footer>
+</body>
+</html>
+

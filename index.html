@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html>
 <html>
 <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -24,10 +24,12 @@
         </ul>
     </header>
     <content>
-
         <div id="webradios-lists">
             webradios list
-            <script type="text/javascript">returnSections();</script>
+            <script type="text/javascript">
+                returnSections();
+                readDataFile("webradios.json", displayItems);
+            </script>
         </div>
     </content>
     <footer>
