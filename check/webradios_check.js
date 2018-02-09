@@ -61,5 +61,4 @@ function displayResult(url, value){
     var nodeTargetTdValidity = document.querySelectorAll('.stream-valid[title="' + url + '"]')[0];
     var valid = value ? "-> please check" : "seems OK";
     nodeTargetTdValidity.innerHTML = valid;
-    console.log(nodeTargetTdValidity);
 }

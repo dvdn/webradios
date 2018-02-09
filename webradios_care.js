@@ -7,6 +7,7 @@ var genresSectionsList = {
     "african":"African",
     "latino":"Latino",
     "soundtracks":"Bandes originales",
+    "classical":"Classique",
     "talk":"Conversations",
     "other":"Divers",
 }
