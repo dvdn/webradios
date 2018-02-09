@@ -188,21 +188,21 @@
             "title": "16BIT.FM I.D.E.A Channel",
             "url": "http://16bitfm.com:8000/idea_mp3_192",
             "genre": "electronic idm",
-            "website": "http://16bit.fm",
+            "website": "http://16bitfm.com",
             "broadcast": "icecast"
         },
         {
             "title": "16BIT.FM Cafe Channel",
             "url": "http://16bitfm.com:8000/cafe_mp3_192",
             "genre": "electronic idm",
-            "website": "http://16bit.fm",
+            "website": "http://16bitfm.com",
             "broadcast": "icecast"
         },
         {
-            "title": "16BIT.FM Main Channel",
+            "title": "16BIT.FM ProBeat Channel",
             "url": "http://16bitfm.com:8000/main_mp3_192",
             "genre": "electronic idm",
-            "website": "http://16bit.fm",
+            "website": "http://16bitfm.com",
             "broadcast": "icecast"
         },
         {
