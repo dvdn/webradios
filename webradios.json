@@ -42,13 +42,6 @@
             }
         },
         {
-            "title": "Zombie*Radio",
-            "url": "http://74.67.225.17:420/;",
-            "genre": "rock metal",
-            "website": "http://www.zombie-radio.com",
-            "broadcast": "shoutcast"
-        },
-        {
             "title": "Radio Neo",
             "url": "http://www.radioneo.org:8000/radioneo",
             "genre": "rock",
@@ -95,7 +88,7 @@
         },
         {
             "title": "Tropical 100 Mix",
-            "url": "http://108.29.123.233:7996/;",
+            "url": "http://tp100.ddns.net:7996/;",
             "genre": "latino",
             "website": "http://www.tropical100.com",
             "broadcast": "shoutcast"
@@ -336,6 +329,13 @@
             "url": "http://sc-brazilianbirds.1.fm:10076/",
             "genre": "birds",
             "website": "http://www.1.fm/",
+            "broadcast": ""
+        },
+        {
+            "title": "Radio Paradise",
+            "url": "http://stream-uk1.radioparadise.com/aac-128",
+            "genre": "eclectic",
+            "website": "https://www.radioparadise.com",
             "broadcast": ""
         }
     ]
