@@ -26,7 +26,7 @@
         },
         {
             "title": "Prog Palace Radio",
-            "url": "http://199.168.117.61:8006/1?cb=278134.mp3",
+            "url": "http://nap.casthost.net:8318/1?cb=370511.mp3",
             "genre": "rock progressive",
             "website": "http://www.progpalaceradio.com/",
             "broadcast": "icecast"
@@ -256,16 +256,9 @@
         },
         {
             "title": "Scratch radio",
-            "url": "http://144.217.203.226:8042/;",
+            "url": "http://www.scratchradio.ca:8000/;",
             "genre": "reggae ska dub",
-            "website": "http://www.azevedo.ca",
-            "broadcast": "shoutcast"
-        },
-        {
-            "title": "Radiorewers",
-            "url": "http://serwery-shoutcast.net:9966/;",
-            "genre": "eclectic",
-            "website": "http://radiorewers.pl",
+            "website": "http://www.scratchradio.ca",
             "broadcast": "shoutcast"
         },
         {
