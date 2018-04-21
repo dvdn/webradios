@@ -149,6 +149,13 @@
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
+                {
+            "title": "Rires et Chansons - live",
+            "url": "http://185.52.127.157/fr/30409/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916962",
+            "genre": "rires talk",
+            "website": "http://www.rireetchansons.fr",
+            "broadcast": ""
+        },
         {
             "title": "Nostalgie",
             "url": "http://185.52.127.168/fr/40106/aac_64.mp3",
@@ -327,7 +334,7 @@
         {
             "title": "Radio Paradise",
             "url": "http://stream-uk1.radioparadise.com/aac-128",
-            "genre": "eclectic",
+            "genre": "rock",
             "website": "https://www.radioparadise.com",
             "broadcast": ""
         }
