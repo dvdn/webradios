@@ -26,7 +26,7 @@
         },
         {
             "title": "Prog Palace Radio",
-            "url": "http://199.168.117.61:8006/1?cb=278134.mp3",
+            "url": "http://nap.casthost.net:8318/1?cb=370511.mp3",
             "genre": "rock progressive",
             "website": "http://www.progpalaceradio.com/",
             "broadcast": "icecast"
@@ -40,13 +40,6 @@
                 "_radioUID": "41ddc629-2b86-431d-b3fd-8953e114fa1c",
                 "__text": "radionomy"
             }
-        },
-        {
-            "title": "Zombie*Radio",
-            "url": "http://74.67.225.17:420/;",
-            "genre": "rock metal",
-            "website": "http://www.zombie-radio.com",
-            "broadcast": "shoutcast"
         },
         {
             "title": "Radio Neo",
@@ -95,7 +88,7 @@
         },
         {
             "title": "Tropical 100 Mix",
-            "url": "http://108.29.123.233:7996/;",
+            "url": "http://tp100.ddns.net:7996/;",
             "genre": "latino",
             "website": "http://www.tropical100.com",
             "broadcast": "shoutcast"
@@ -152,6 +145,13 @@
         {
             "title": "Rires et Chansons - sketches",
             "url": "http://185.52.127.131/fr/30407/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916962",
+            "genre": "rires talk",
+            "website": "http://www.rireetchansons.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "Rires et Chansons - live",
+            "url": "http://185.52.127.157/fr/30409/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916962",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
@@ -263,16 +263,9 @@
         },
         {
             "title": "Scratch radio",
-            "url": "http://144.217.203.226:8042/;",
+            "url": "http://www.scratchradio.ca:8000/;",
             "genre": "reggae ska dub",
-            "website": "http://www.azevedo.ca",
-            "broadcast": "shoutcast"
-        },
-        {
-            "title": "Radiorewers",
-            "url": "http://serwery-shoutcast.net:9966/;",
-            "genre": "eclectic",
-            "website": "http://radiorewers.pl",
+            "website": "http://www.scratchradio.ca",
             "broadcast": "shoutcast"
         },
         {
@@ -336,6 +329,13 @@
             "url": "http://sc-brazilianbirds.1.fm:10076/",
             "genre": "birds",
             "website": "http://www.1.fm/",
+            "broadcast": ""
+        },
+        {
+            "title": "Radio Paradise",
+            "url": "http://stream-uk1.radioparadise.com/aac-128",
+            "genre": "rock",
+            "website": "https://www.radioparadise.com",
             "broadcast": ""
         }
     ]
