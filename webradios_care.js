@@ -69,7 +69,10 @@ function itemManagement(radioItem) {
     nodeLi.appendChild(nodeBtn);
     nodeLi.appendChild(nodeLinkWeb);
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
-    nodeBtn.onclick = function(){loadTrack(radioItem.title, radioItem.url);};
+    nodeBtn.onclick = function(){
+        loadTrack(radioItem.title, radioItem.url);
+        pathMetadata(radioItem.url, radioItem.broadcast);
+    };
 
     for (property in genresSectionsList) {
         if (radioItem.genre.indexOf(property) !== -1) {
@@ -82,5 +85,3 @@ function itemManagement(radioItem) {
     }
 
 }
-
-
