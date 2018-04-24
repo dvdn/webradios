@@ -1,10 +1,8 @@
-function pathMetadata(streamUrl, streamType) {
+function getPathMetadata(streamUrl, streamType) {
 console.log(streamUrl);
 console.log(streamType);
-
     switch (streamType) {
         case 'icecast':
-        //a = streamUrl.split('?') [0] + '.xspf';
         var b = streamUrl.lastIndexOf('/');
         a= streamUrl.substring(0, b) + '/status.xsl';
         break;
@@ -14,13 +12,18 @@ console.log(streamType);
         a= streamUrl.substring(0, b) + '/7.html';
         break;
         default:
-        a = null
+        a = null;
     }
-    console.log(a);
     return a;
 }
 
-
+function displayMetadata(url){
+    str ="";
+    if (url !== null) {
+        str = "<a href='"+url+"' target=\"_blank\">What's playing ?</a>"
+    }
+    document.getElementsByClassName('webradio-metadata')[0].innerHTML=str;
+}
 /*
 null != this.proxy && (a = this.proxy + '?url=' + w.replace(a, ':', '%3A'));
 

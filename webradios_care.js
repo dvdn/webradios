@@ -71,7 +71,7 @@ function itemManagement(radioItem) {
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
     nodeBtn.onclick = function(){
         loadTrack(radioItem.title, radioItem.url);
-        pathMetadata(radioItem.url, radioItem.broadcast);
+        loadMetadata(radioItem.url, radioItem.broadcast);
     };
 
     for (property in genresSectionsList) {
