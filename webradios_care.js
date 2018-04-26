@@ -71,7 +71,8 @@ function itemManagement(radioItem) {
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
     nodeBtn.onclick = function(){
         loadTrack(radioItem.title, radioItem.url);
-        loadMetadata(radioItem.url, radioItem.broadcast);
+        displayName(radioItem.title, radioItem.website)
+        displayMetadata(getPathMetadata(radioItem.url, radioItem.broadcast));
     };
 
     for (property in genresSectionsList) {
@@ -83,5 +84,8 @@ function itemManagement(radioItem) {
         //else default
         document.getElementsByClassName("other")[0].appendChild(nodeLi);
     }
+}
 
+function displayName(name, website){
+    document.getElementsByClassName('webradio-name')[0].innerHTML="<a href='"+website+"' target='_blank'>'"+name+"'</a>";
 }
