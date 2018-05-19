@@ -87,5 +87,5 @@ function itemManagement(radioItem) {
 }
 
 function displayName(name, website){
-    document.getElementsByClassName('webradio-name')[0].innerHTML="<a href='"+website+"' target='_blank'>'"+name+"'</a>";
+    document.getElementById('webradio-name').innerHTML="<a href='"+website+"' target='_blank'>"+name+"</a>";
 }

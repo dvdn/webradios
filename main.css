@@ -26,6 +26,7 @@ header{
     position: fixed;
     left: 0;
     top: 0;
+    padding-bottom: 2em;
     background: white;
     border-bottom: 1px solid darkgrey;
     box-shadow: 0 1px 3px grey;
@@ -45,22 +46,47 @@ header p{
     font-style:italic;
     color: grey;
 }
-#player-wrapper, #webradio-infos{
-    width: 100%;
-}
-    #player-wrapper{
-        margin-top: 2em;
+    .head{
+        width: 50%;
+        float: left;
     }
     #player-wrapper .musesStyleReset{
-        margin: auto;
+        float: right;
     }
-    #webradio-infos li{
-        width: 50%;
-        line-height:2em;
-        font-family: "Courier New", sans-serif;
-        margin: 1em auto;
+    #webradio-infos{
+        margin-top: 38px;
+        float: left;
+    }
+    #webradio-infos div{
+        min-width: 200px;
+        line-height: 30px;
+        font-family: sans-serif;
         color: grey;
     }
+    #webradio-infos a{
+        display: inline-block;
+        width:100%;
+        color: black;
+        font-size: 0.8em;
+        background-color: #f18889;
+        padding: 0 6px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        box-shadow: 0 5px #336;
+    }
+    #webradio-infos a:hover {
+        background-color: #eb5b72;
+    }
+    #webradio-infos a:active{
+    background: #eb5b72;
+    box-shadow: none;
+    transform: translateY(5px);
+    }
+    #webradio-name{
+        font-weight: bold;
+        margin-bottom: 33px;
+    }
+
 #webradios-lists{
     min-height: 500px;
     margin:auto;
