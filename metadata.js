@@ -18,7 +18,7 @@ function getPathMetadata(streamUrl, streamType) {
 function displayMetadata(url){
     str ="";
     if (url !== null) {
-        str = "<a href='"+url+"' target=\"_blank\">Quel titre est diffusé ?</a>"
+        str = "<a href='"+url+"' target=\"_blank\">Quel titre en ce moment ?</a>"
     }
     document.getElementById('webradio-metadata').innerHTML=str;
 }
