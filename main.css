@@ -33,7 +33,7 @@ header{
 }
 footer, content{
     display:block;
-    padding-top: 280px;
+    padding-top: 250px;
     width: 90%;
     max-width: 1440px;
     margin: auto;
@@ -54,37 +54,32 @@ header p{
     #player-wrapper .musesStyleReset{
         float: right;
     }
-    #webradio-infos{
-        width: 280px;
-        height: 96px;
-        margin-top: 16px;
-        float: left;
-        background-color: black;
-        border: 1px solid grey;
-        border-radius: 5px;
-        color: #3d94f6;
+    #infos-wrapper{
+        margin-left: 4%;
     }
     #webradio-infos div{
-        height: 30px;
-        font-family: 'courier',sans-serif;
+        width: 100%;
+        float: left;
+        text-align: left;
     }
     #webradio-infos a{
         color: #3d94f6;
-        font-weight: bolder;
+        background: black;
+        font-family: 'courier',sans-serif;
+        font-weight: bold;
+        padding: 0 .3em;
     }
     #webradio-infos a:hover{
         color: #eb5b72;
     }
     #webradio-name{
-        margin-top: 12px;
-        font-size: 1.2em;
+        margin-top: 9px;
+        font-size: 1.8em;
         text-transform: uppercase;
     }
     #webradio-metadata{
         position: absolute;
-        bottom: 40px;
-        left: 47.5%;
-        overflow: hidden;
+        bottom: 50px;
     }
 
 #webradios-lists{
