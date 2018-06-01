@@ -121,6 +121,12 @@ section{
 section:last-child{
     border-bottom:0;
 }
+section:nth-child(odd) {
+    background: #fff;
+}
+section:nth-child(even) {
+    background: #eee;
+}
     section .list-heading{
         width:12%;
         font-size: 0.8em;
