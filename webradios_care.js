@@ -14,8 +14,8 @@ var genresSectionsList = {
 
 //return html genres sections
 function returnSections() {
-    var domBegin = '<section><h2 class="list-heading">';
-    var domBetween ='</h2><ul class="';
+    var domBegin = '<section><h3 class="list-heading">';
+    var domBetween ='</h3><ul class="';
     var domEnd = '"></ul></section>';
     var targetElement = 'webradios-lists';
     var innerHTMLstr = "";
