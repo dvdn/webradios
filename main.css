@@ -1,161 +1,97 @@
-h1, p, ul, li{
+h1,h2,h3, p, ul, li, button{
     margin:0;
     padding:0;
 }
 ul, li{
     list-style: none;
 }
-a:link{
+a{
     text-decoration: none;
-}
-button{
-    border:none;
-    padding: 0;
-    margin: 0;
+    color: grey;
 }
 body{
     background-color: white;
-    font-family: sans-serif;
+    font-family: 'courier', sans-serif;
 }
 header, content{
     text-align: center;
-
+}
+content, footer{
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+content{
+    display: block;
+    padding-top: 280px;
 }
 header{
     width: 100%;
     position: fixed;
     left: 0;
     top: 0;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     background: white;
     border-bottom: 1px solid darkgrey;
     box-shadow: 0 1px 3px grey;
 }
-footer, content{
-    display:block;
-    padding-top: 250px;
-    width: 90%;
-    max-width: 1440px;
-    margin: auto;
+    header p{
+        font-size: 0.8em;
+        font-style:italic;
+        color: grey;
+    }
+    .head{
+        width: 100%;
+        text-align: center;
+    }
+        #player-wrapper .musesStyleReset{
+            margin: auto;
+        }
+        #infos-wrapper{
+            width: 500px;
+            margin: .8em auto 0;
+            color: green;
+        }
+        .info{
+            text-align: center;
+            padding: .5em 0;
+            background: black;
+        }
+        #webradio-name{
+            width: 100%;
+            line-height: .8em;
+        }
+        #webradio-metadata{
+            font-weight: bold;
+        }
+        #webradio-name a{
+            color: #ffea59;
+        }
+        #webradio-metadata a, button:hover{
+            color: #eb5b72;
+        }
+        #webradio-name a:hover, #webradio-metadata a:hover{
+            color: whitesmoke;
+        }
+section{
+    width:20%;
+    float: left;
+    margin-bottom: 1.5em;
+    overflow-wrap: break-word;
 }
+    button{
+        width: 95%;
+        padding: 1em 0;
+        margin: .1em 0;
+        border: none;
+        cursor: pointer;
+        background: #f2f1f0;
+    }
+    button:hover{
+        background: white;
+    }
 footer{
+    display: inline-block;
+    padding-top: 50px;
     color:grey;
 }
-header p{
-    font-size: 0.8em;
-    font-style:italic;
-    color: grey;
-}
-    .head{
-        width: 46%;
-        float: left;
-        margin-top: 2em;
-    }
-    #player-wrapper .musesStyleReset{
-        float: right;
-    }
-    #infos-wrapper{
-        margin-left: 4%;
-    }
-    #webradio-infos div{
-        width: 100%;
-        float: left;
-        text-align: left;
-    }
-    #webradio-infos a{
-        color: #3d94f6;
-        background: black;
-        font-family: 'courier',sans-serif;
-        font-weight: bold;
-        padding: 0 .3em;
-    }
-    #webradio-infos a:hover{
-        color: #eb5b72;
-    }
-    #webradio-name{
-        margin-top: 9px;
-        font-size: 1.8em;
-        text-transform: uppercase;
-    }
-    #webradio-metadata{
-        position: absolute;
-        bottom: 50px;
-    }
-
-#webradios-lists{
-    min-height: 500px;
-    margin:auto;
-}
-
-button{
-    width: 190px;
-    height:50px;
-    margin:0 7px;
-    font-size:0.8em;
-    font-weight:bold;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
-    background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
-    border-radius: 5px;
-    box-shadow: 0 5px #336;
-    color: #fff;
-}
-button:hover{
-    background: #1e62d0;
-}
-button:active{
-    background: #1e62d0;
-    box-shadow: none;
-    transform: translateY(5px);
-}
-
-/* genre ordering */
-section{
-    display: inline-block;
-    width: 100%;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    float:left;
-    border-bottom: 1px dotted grey;
-    text-align: left;
-}
-section:last-child{
-    border-bottom:0;
-}
-section:nth-child(odd){
-    background: #fff;
-}
-section:nth-child(even){
-    background: #eee;
-}
-    .list-heading{
-        width:10%;
-        margin-left:2%;
-        font-size: 0.8em;
-        color:grey;
-    }
-    section ul{
-        width:88%;
-        list-style-type: none;
-    }
-    section .list-heading, section ul, section li{
-        float:left;
-    }
-    section li{
-        min-height:80px;
-    }
-
-    section li a.website-link{
-        display: block;
-        width: 25%;
-        margin-top: 6px;
-        margin-left: 67%;
-        font-size: 0.6em;
-        color: grey;
-        text-align: center;
-        border-bottom: 1px dotted grey;
-        border-left: 1px dotted grey;
-        border-right: 1px dotted grey;
-    }
-    section li a.website-link:hover{
-        color:#337fed
-    }
