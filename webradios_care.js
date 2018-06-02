@@ -69,7 +69,11 @@ function itemManagement(radioItem) {
     nodeLi.appendChild(nodeBtn);
     nodeLi.appendChild(nodeLinkWeb);
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
-    nodeBtn.onclick = function(){loadTrack(radioItem.title, radioItem.url);};
+    nodeBtn.onclick = function(){
+        loadTrack(radioItem.title, radioItem.url);
+        displayName(radioItem.title, radioItem.website)
+        displayMetadata(getPathMetadata(radioItem.url, radioItem.broadcast));
+    };
 
     for (property in genresSectionsList) {
         if (radioItem.genre.indexOf(property) !== -1) {
@@ -80,7 +84,8 @@ function itemManagement(radioItem) {
         //else default
         document.getElementsByClassName("other")[0].appendChild(nodeLi);
     }
-
 }
 
-
+function displayName(name, website){
+    document.getElementById('webradio-name').innerHTML="<a href='"+website+"' target='_blank'>"+name+"</a>";
+}

@@ -26,13 +26,14 @@ header{
     position: fixed;
     left: 0;
     top: 0;
+    padding-bottom: 2em;
     background: white;
     border-bottom: 1px solid darkgrey;
     box-shadow: 0 1px 3px grey;
 }
 footer, content{
     display:block;
-    padding-top: 280px;
+    padding-top: 250px;
     width: 90%;
     max-width: 1440px;
     margin: auto;
@@ -45,22 +46,42 @@ header p{
     font-style:italic;
     color: grey;
 }
-#player-wrapper, #webradio-infos{
-    width: 100%;
-}
-    #player-wrapper{
+    .head{
+        width: 46%;
+        float: left;
         margin-top: 2em;
     }
     #player-wrapper .musesStyleReset{
-        margin: auto;
+        float: right;
     }
-    #webradio-infos li{
-        width: 50%;
-        line-height:2em;
-        font-family: "Courier New", sans-serif;
-        margin: 1em auto;
-        color: grey;
+    #infos-wrapper{
+        margin-left: 4%;
     }
+    #webradio-infos div{
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+    #webradio-infos a{
+        color: #3d94f6;
+        background: black;
+        font-family: 'courier',sans-serif;
+        font-weight: bold;
+        padding: 0 .3em;
+    }
+    #webradio-infos a:hover{
+        color: #eb5b72;
+    }
+    #webradio-name{
+        margin-top: 9px;
+        font-size: 1.8em;
+        text-transform: uppercase;
+    }
+    #webradio-metadata{
+        position: absolute;
+        bottom: 50px;
+    }
+
 #webradios-lists{
     min-height: 500px;
     margin:auto;
@@ -100,8 +121,15 @@ section{
 section:last-child{
     border-bottom:0;
 }
-    section .list-heading{
-        width:12%;
+section:nth-child(odd){
+    background: #fff;
+}
+section:nth-child(even){
+    background: #eee;
+}
+    .list-heading{
+        width:10%;
+        margin-left:2%;
         font-size: 0.8em;
         color:grey;
     }

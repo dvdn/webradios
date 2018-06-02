@@ -19,9 +19,8 @@ function returnPlayer(){
     MRP.insert(playerConfig);
 }
 
-function loadTrack(title, url){
+function loadTrack(name, url){
     MRP.setUrl(url);
-    MRP.setTitle(title);
+    MRP.setTitle(name);
     MRP.play();
-    document.getElementsByClassName('webradio-title')[0].innerHTML=title;
 }

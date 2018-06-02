@@ -6,6 +6,7 @@
     <title>Webradios sweet selection</title>
     <script type="text/javascript" src="config.js"></script>
     <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+    <script type="text/javascript" src="metadata.js"></script>
     <script type="text/javascript" src="radioplayer.js"></script>
     <script type="text/javascript" src="webradios_care.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -15,13 +16,16 @@
     <header>
         <h1>webradios sweet selection</h1>
         <p>Cliquez sur la radio que vous souhaitez &eacutecouter</p>
-        <div id="player-wrapper">
+        <div id="player-wrapper" class="head">
             stream player
             <script type="text/javascript">returnPlayer();</script>
         </div>
-        <ul id="webradio-infos">
-            <li class="webradio-title">...</li>
-        </ul>
+        <div id="infos-wrapper" class="head">
+            <div id="webradio-infos">
+                <div id="webradio-name">...</div>
+                <div id="webradio-metadata"></div>
+            </div>
+        </div>
     </header>
     <content>
         <div id="webradios-lists">
