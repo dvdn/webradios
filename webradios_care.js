@@ -56,18 +56,11 @@ function readDataFile(file, callback) {
 function itemManagement(radioItem) {
     var nodeLi = document.createElement("li");
     var nodeBtn = document.createElement("button");
-    var nodeLinkWeb = document.createElement("a");
-    nodeLinkWeb.setAttribute("href", radioItem.website);
-    nodeLinkWeb.setAttribute("target", "__blank");
-    nodeLinkWeb.setAttribute("class", "website-link");
-    var textWebsite = document.createTextNode("website");
     var textTitle = document.createTextNode(radioItem.title);
     var textGenre = document.createTextNode(radioItem.genre);
     nodeBtn.appendChild(textTitle);
     nodeBtn.setAttribute("title", radioItem.genre);
-    nodeLinkWeb.appendChild(textWebsite);
     nodeLi.appendChild(nodeBtn);
-    nodeLi.appendChild(nodeLinkWeb);
     nodeLi.setAttribute("class", "webradio "+radioItem.genre);
     nodeBtn.onclick = function(){
         loadTrack(radioItem.title, radioItem.url);

@@ -1,52 +1,97 @@
-h1, p, ul, li{
+h1,h2,h3, p, ul, li, button{
     margin:0;
     padding:0;
 }
 ul, li{
     list-style: none;
 }
-a:link{
+a{
     text-decoration: none;
-}
-button{
-    border:none;
-    padding: 0;
-    margin: 0;
+    color: grey;
 }
 body{
     background-color: white;
-    font-family: sans-serif;
+    font-family: 'courier', sans-serif;
 }
 header, content{
     text-align: center;
-
+}
+content, footer{
+    display:block;
+    padding-top: 280px;
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
 }
 header{
     width: 100%;
     position: fixed;
     left: 0;
     top: 0;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     background: white;
     border-bottom: 1px solid darkgrey;
     box-shadow: 0 1px 3px grey;
 }
-footer, content{
-    display:block;
-    padding-top: 250px;
-    width: 90%;
-    max-width: 1440px;
-    margin: auto;
-}
+    header p{
+        font-size: 0.8em;
+        font-style:italic;
+        color: grey;
+    }
+    .head{
+        width: 100%;
+        text-align: center;
+    }
+        #player-wrapper .musesStyleReset{
+            margin: auto;
+        }
+        #infos-wrapper{
+            width: 500px;
+            margin: .8em auto 0;
+            color: green;
+        }
+        .info{
+            text-align: center;
+            padding: .5em 0;
+            background: black;
+        }
+        #webradio-name{
+            width: 100%;
+            line-height: .8em;
+        }
+        #webradio-metadata{
+            font-weight: bold;
+        }
+        #webradio-name a{
+            color: #ffea59;
+        }
+        #webradio-metadata a{
+            color: #eb5b72;
+        }
+        #webradio-name a:hover, #webradio-metadata a:hover{
+            color: whitesmoke;
+        }
+
 footer{
     color:grey;
 }
-header p{
-    font-size: 0.8em;
-    font-style:italic;
-    color: grey;
-}
-    .head{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    .head{
         width: 46%;
         float: left;
         margin-top: 2em;
@@ -108,7 +153,7 @@ button:active{
     transform: translateY(5px);
 }
 
-/* genre ordering */
+/* genre ordering
 section{
     display: inline-block;
     width: 100%;
@@ -159,3 +204,4 @@ section:nth-child(even){
     section li a.website-link:hover{
         color:#337fed
     }
+*/
