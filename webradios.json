@@ -210,7 +210,7 @@
             "url": "http://ice1.somafm.com/cliqhop-128-mp3",
             "genre": "electronic idm",
             "website": "http://somafm.com/cliqhop/",
-            "broadcast": "icecast"
+            "broadcast": "http://somafm.com/cliqhop/songhistory.html"
         },
         {
             "title": "plusfm.net",

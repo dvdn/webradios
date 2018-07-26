@@ -1,5 +1,8 @@
-function getPathMetadata(streamUrl, streamType) {
-    switch (streamType) {
+function getPathMetadata(radioItem) {
+    streamUrl = radioItem.url;
+    streamCast = radioItem.broadcast;
+    console.log(streamCast);
+    switch (streamCast) {
         case 'icecast':
         var b = streamUrl.lastIndexOf('/');
         a= streamUrl.substring(0, b) + '/status.xsl';
@@ -9,8 +12,11 @@ function getPathMetadata(streamUrl, streamType) {
         var b = streamUrl.lastIndexOf('/');
         a= streamUrl.substring(0, b) + '/7.html';
         break;
-        default:
+        case '':
         a = null;
+        break;
+        default:
+        a = streamCast;
     }
     return a;
 }

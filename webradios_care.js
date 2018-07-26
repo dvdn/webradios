@@ -65,7 +65,7 @@ function itemManagement(radioItem) {
     nodeBtn.onclick = function(){
         loadTrack(radioItem.title, radioItem.url);
         displayName(radioItem.title, radioItem.website)
-        displayMetadata(getPathMetadata(radioItem.url, radioItem.broadcast));
+        displayMetadata(getPathMetadata(radioItem));
     };
 
     for (property in genresSectionsList) {
