@@ -207,7 +207,7 @@
         },
         {
             "title": "[SomaFM] cliqhop idm",
-            "url": "http://ice2.somafm.com/cliqhop-128-mp3",
+            "url": "http://ice1.somafm.com/cliqhop-128-mp3",
             "genre": "electronic idm",
             "website": "http://somafm.com/cliqhop/",
             "broadcast": "icecast"
@@ -297,10 +297,10 @@
             "broadcast": "icecast"
         },
         {
-            "title": "Movie Magic",
-            "url": "http://107.175.72.133:8064/;",
+            "title": "Streaming Soundtracks",
+            "url": "http://hi5.streamingsoundtracks.com/;",
             "genre": "soundtracks",
-            "website": "http://www.ampedfm.com/",
+            "website": "http://www.streamingsoundtracks.com/",
             "broadcast": "shoutcast"
         },
         {
