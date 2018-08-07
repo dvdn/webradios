@@ -49,6 +49,13 @@
             "broadcast": "icecast"
         },
         {
+            "title": "Fritz",
+            "url": "https://rbb-fritz-live.sslcast.addradio.de/rbb/fritz/live/mp3/128/stream.mp3",
+            "genre": "eclectic",
+            "website": "https://www.fritz.de/",
+            "broadcast": "https://www.fritz.de/musik/playlists/"
+        },
+        {
             "title": "PBB",
             "url": "http://pbb.laurentgarnier.com:8000/pbb128",
             "genre": "eclectic",
