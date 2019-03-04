@@ -49,11 +49,25 @@
             "broadcast": "icecast"
         },
         {
-            "title": "Fritz",
-            "url": "https://rbb-fritz-live.sslcast.addradio.de/rbb/fritz/live/mp3/128/stream.mp3",
-            "genre": "eclectic",
-            "website": "https://www.fritz.de/",
-            "broadcast": "https://www.fritz.de/musik/playlists/"
+            "title": "Rai Radio 1",
+            "url": "http://icestreaming.rai.it/1.mp3",
+            "genre": "talk eclectic italia",
+            "website": "https://www.raiplayradio.it",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Rai Radio 2",
+            "url": "http://icestreaming.rai.it/2.mp3",
+            "genre": "talk eclectic italia",
+            "website": "https://www.raiplayradio.it",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Rai Radio 2 Indie",
+            "url": "http://icestreaming.rai.it/15.mp3",
+            "genre": "rock italia",
+            "website": "https://www.raiplayradio.it",
+            "broadcast": "icecast"
         },
         {
             "title": "PBB",
@@ -61,6 +75,20 @@
             "genre": "eclectic",
             "website": "http://laurentgarnier.com",
             "broadcast": "icecast"
+        },
+        {
+            "title": "NTS (stream 1)",
+            "url": "https://stream-relay-geo.ntslive.net/stream",
+            "genre": "eclectic",
+            "website": "https://www.nts.live/",
+            "broadcast": ""
+        },
+        {
+            "title": "NTS (stream 2)",
+            "url": "https://stream-relay-geo.ntslive.net/stream2",
+            "genre": "eclectic",
+            "website": "https://www.nts.live/",
+            "broadcast": ""
         },
         {
             "title": "Kohina",
@@ -186,9 +214,9 @@
         },
         {
             "title": "Limbik Frequencies - Radio Elektro[u]nique",
-            "url": "http://23.254.217.103:8000/256.mp3",
+            "url": "http://23.254.130.178:8000/128.mp3",
             "genre": "electronic idm",
-            "website": "https://www.facebook.com/limbikfreq",
+            "website": "https://www.limbikfreq.com/",
             "broadcast": "shoutcast"
         },
         {
