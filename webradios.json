@@ -63,6 +63,20 @@
             "broadcast": "icecast"
         },
         {
+            "title": "NTS (stream 1)",
+            "url": "https://stream-relay-geo.ntslive.net/stream",
+            "genre": "eclectic",
+            "website": "https://www.nts.live/",
+            "broadcast": ""
+        },
+        {
+            "title": "NTS (stream 2)",
+            "url": "https://stream-relay-geo.ntslive.net/stream2",
+            "genre": "eclectic",
+            "website": "https://www.nts.live/",
+            "broadcast": ""
+        },
+        {
             "title": "Kohina",
             "url": "http://stream.nute.net:8000/kohina/stream.ogg",
             "genre": "electronic video-game",
