@@ -72,9 +72,16 @@
         {
             "title": "PBB",
             "url": "http://pbb.laurentgarnier.com:8000/pbb128",
-            "genre": "eclectic",
+            "genre": "eclectic laurent_garnier",
             "website": "http://laurentgarnier.com",
             "broadcast": "icecast"
+        },
+        {
+            "title": "WorldWide FM",
+            "url": "http://worldwidefm.out.airtime.pro:8000/worldwidefm_a",
+            "genre": "eclectic gilles_peterson",
+            "website": "http://worldwidefm.net/",
+            "broadcast": ""
         },
         {
             "title": "NTS (stream 1)",
