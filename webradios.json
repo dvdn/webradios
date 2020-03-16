@@ -2,20 +2,10 @@
     "webradios": [
         {
             "title": "4U Rock N Metal",
-            "url": "https://streaming.radionomy.com/4U-Hard-FM",
+            "url": "https://streamingv2.shoutcast.com/4U-Hard-FM",
             "genre": "rock metal",
             "website": "http://www.4urocknmetal.com",
-            "broadcast": {
-                "_radioUID": "1f8e9574-3425-4c22-90d7-b2db2c4fc276",
-                "__text": "radionomy"
-            }
-        },
-        {
-            "title": "4U Classic Rock",
-            "url": "http://str4uice.streamakaci.com/4uclassicrock.mp3",
-            "genre": "rock classic",
-            "website": "https://www.4urock.com/",
-            "broadcast": "icecast"
+            "broadcast": ""
         },
         {
             "title": "La Grosse Radio METAL",
@@ -32,14 +22,11 @@
             "broadcast": "icecast"
         },
         {
-            "title": "ChroniX Aggression - Loud & Clear",
-            "url": "http://streaming.radionomy.com/ChroniXRadio-",
+            "title": "ChroniX Radio - Loud & Clear",
+            "url": "https://usa17.fastcast4u.com/proxy/gebacher?mp=/1",
             "genre": "rock metal",
             "website": "http://www.chronixradio.net/",
-            "broadcast": {
-                "_radioUID": "41ddc629-2b86-431d-b3fd-8953e114fa1c",
-                "__text": "radionomy"
-            }
+            "broadcast": "shoutcast"
         },
         {
             "title": "Radio Neo",
@@ -77,6 +64,20 @@
             "broadcast": "icecast"
         },
         {
+            "title": "Radio Dijon Campus",
+            "url": "http://frequence.u-bourgogne.fr:8082/dijoncampus",
+            "genre": "eclectic campus",
+            "website": "https://radiodijoncampus.com",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "FIP",
+            "url": "http://icecast.radiofrance.fr/fip-midfi.mp3",
+            "genre": "eclectic",
+            "website": "https://www.fip.fr/",
+            "broadcast": ""
+        },
+        {
             "title": "WorldWide FM",
             "url": "http://worldwidefm.out.airtime.pro:8000/worldwidefm_a",
             "genre": "eclectic gilles_peterson",
@@ -96,20 +97,6 @@
             "genre": "eclectic",
             "website": "https://www.nts.live/",
             "broadcast": ""
-        },
-        {
-            "title": "Kohina",
-            "url": "http://stream.nute.net:8000/kohina/stream.ogg",
-            "genre": "electronic video-game",
-            "website": "http://www.kohina.com",
-            "broadcast": ""
-        },
-        {
-            "title": "NoLife-radio.com",
-            "url": "http://radio.nolife-radio.com:9000/stream",
-            "genre": "electronic video-game",
-            "website": "http://nolife-radio.com",
-            "broadcast": "icecast"
         },
         {
             "title": "Pan African Allstars",
@@ -179,7 +166,7 @@
         },
         {
             "title": "Rires et Chansons - canulars",
-            "url": "http://185.52.127.159/fr/30413/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489917110",
+            "url": "https://scdn.nrjaudio.fm/fr/30413/aac_64.mp3?cdn_path=adswizz_lbs7&adws_out_a1",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
@@ -193,7 +180,14 @@
         },
         {
             "title": "Rires et Chansons - live",
-            "url": "http://185.52.127.157/fr/30409/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916962",
+            "url": "https://scdn.nrjaudio.fm/fr/30409/aac_64.mp3?cdn_path=adswizz_lbs7&adws_out_a1",
+            "genre": "rires talk",
+            "website": "http://www.rireetchansons.fr",
+            "broadcast": ""
+        },
+        {
+            "title": "Rires et Chansons - blagues",
+            "url": "https://scdn.nrjaudio.fm/fr/30411/aac_64.mp3?cdn_path=adswizz_lbs7&adws_out_a1",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
@@ -255,6 +249,13 @@
             "broadcast": "http://somafm.com/cliqhop/songhistory.html"
         },
         {
+            "title": "FIP Electro",
+            "url": "http://icecast.radiofrance.fr/fipelectro-midfi.mp3",
+            "genre": "electronic",
+            "website": "https://www.fip.fr/",
+            "broadcast": ""
+        },
+        {
             "title": "plusfm.net",
             "url": "http://51.15.169.131/;",
             "genre": "electronic",
@@ -304,6 +305,20 @@
             "broadcast": "shoutcast"
         },
         {
+            "title": "Kohina",
+            "url": "http://stream.nute.net:8000/kohina/stream.ogg",
+            "genre": "8-bit electro video-game",
+            "website": "http://www.kohina.com",
+            "broadcast": ""
+        },
+        {
+            "title": "NoLife-radio.com",
+            "url": "http://radio.nolife-radio.com:9000/stream",
+            "genre": "8-bit electro video-game",
+            "website": "http://nolife-radio.com",
+            "broadcast": "icecast"
+        },
+        {
             "title": "Scratch radio",
             "url": "http://www.scratchradio.ca:8000/;",
             "genre": "reggae ska dub",
@@ -311,8 +326,15 @@
             "broadcast": "shoutcast"
         },
         {
+            "title": "FIP Reggae",
+            "url": "http://icecast.radiofrance.fr/fipreggae-midfi.mp3",
+            "genre": "reggae",
+            "website": "https://www.fip.fr/",
+            "broadcast": ""
+        },
+        {
             "title": "BLACK SOUL RHYTHMS RADIO",
-            "url": "http://pstnet5.shoutcastnet.com:50020/;",
+            "url": "http://69.162.103.66:8055/;",
             "genre": "soul",
             "website": "http://blacksoulrhythms.com",
             "broadcast": "shoutcast"

@@ -2,6 +2,7 @@
 var genresSectionsList = {
     "rock":"Rock",
     "electronic":"Electronique",
+    "8-bit":"Electro 8-bit",
     "funk":"Funk",
     "reggae":"Reggea, Ska",
     "african":"African",
