@@ -317,6 +317,20 @@
             "genre": "8-bit electro video-game",
             "website": "http://nolife-radio.com",
             "broadcast": "icecast"
+        },        
+        {
+            "title": "011FM Hip Hop Hits",
+            "url": "http://listen.011fm.com:9000/stream13",
+            "genre": "hiphop",
+            "website": "https://011fm.com",
+            "broadcast": ""
+        },
+        {
+            "title": "TodaysHottestHipHopHits",
+            "url": "http://streaming308.radionomy.com:80/TodaysHottestHipHopHits",
+            "genre": "hiphop",
+            "website": "https://www.todayshottesthits.com/today-s-hottest-rhythmic-and-urban-hits.html",
+            "broadcast": ""
         },
         {
             "title": "Scratch radio",
