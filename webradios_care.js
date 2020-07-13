@@ -1,17 +1,24 @@
 //sections for the Dom
-var genresSectionsList = {
-    "rock":"Rock",
-    "electronic":"Electronique",
-    "8-bit":"Electro 8-bit",
+const genresSectionsList = {
     "funk":"Funk",
     "hiphop":"Hip Hop",
     "reggae":"Reggea, Ska",
     "african":"African",
     "latino":"Latino",
+    "rock":"Rock",
+    "electronic":"Electronique",
+    "other":"Divers",
+    "talk":"Conversations",
+    "8-bit":"8-bit",
     "soundtracks":"Bandes originales",
     "classical":"Classique",
-    "talk":"Conversations",
-    "other":"Divers",
+}
+
+//all genres but 'other'
+const keysGenresSectionsList = Object.keys(genresSectionsList);
+const index = keysGenresSectionsList.indexOf("other");
+if (index > -1) {
+  keysGenresSectionsList.splice(index, 1);
 }
 
 //return html genres sections
@@ -70,15 +77,26 @@ function itemManagement(radioItem) {
         displayMetadata(getPathMetadata(radioItem));
     };
 
-    for (property in genresSectionsList) {
-        if (radioItem.genre.indexOf(property) !== -1) {
-            document.getElementsByClassName(property)[0].appendChild(nodeLi);
-            //break if processed
-            return;
-        }
-        //else default
+
+
+
+    var itemGenres = radioItem.genre.split(' ');
+
+    var array_intersection = itemGenres.filter(function(x) {
+        // checking second array contains the element "x"
+        if(keysGenresSectionsList.indexOf(x) != -1)
+            return true;
+        else
+            return false;
+        });
+
+    //if genre is known else default section
+    if (array_intersection[0]!== undefined) {
+        document.getElementsByClassName(array_intersection[0])[0].appendChild(nodeLi);
+    } else {
         document.getElementsByClassName("other")[0].appendChild(nodeLi);
     }
+
 }
 
 function displayName(name, website){
