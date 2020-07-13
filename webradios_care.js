@@ -3,15 +3,15 @@ const genresSectionsList = {
     "funk":"Funk",
     "hiphop":"Hip Hop",
     "reggae":"Reggea, Ska",
-    "african":"African",
-    "latino":"Latino",
-    "rock":"Rock",
     "electronic":"Electronique",
     "other":"Divers",
     "talk":"Conversations",
-    "8-bit":"8-bit",
-    "soundtracks":"Bandes originales",
     "classical":"Classique",
+    "rock":"Rock",
+    "soundtracks":"Bandes originales",
+    "latino":"Latino",
+    "african":"African",
+    "8-bit":"8-bit",
 }
 
 //all genres but 'other'
@@ -78,10 +78,7 @@ function itemManagement(radioItem) {
     };
 
 
-
-
     var itemGenres = radioItem.genre.split(' ');
-
     var array_intersection = itemGenres.filter(function(x) {
         // checking second array contains the element "x"
         if(keysGenresSectionsList.indexOf(x) != -1)
@@ -90,7 +87,7 @@ function itemManagement(radioItem) {
             return false;
         });
 
-    //if genre is known else default section
+    //sort if genre is known else default section
     if (array_intersection[0]!== undefined) {
         document.getElementsByClassName(array_intersection[0])[0].appendChild(nodeLi);
     } else {
