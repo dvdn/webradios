@@ -73,22 +73,29 @@ header{
         #webradio-name a:hover, #webradio-metadata a:hover{
             color: whitesmoke;
         }
+
+#webradios-lists {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 section{
-    width:20%;
-    float: left;
+    width: 33%;
     margin-bottom: 1.5em;
     overflow-wrap: break-word;
 }
     button{
         width: 95%;
-        padding: 1em 0;
-        margin: .1em 0;
-        border: none;
+        padding: .8em 0;
+        margin: .2em 0;
+        border: 1px solid lightgray;
         cursor: pointer;
         background: #f2f1f0;
+        font-family: helvetica, sans-serif;
     }
     button:hover{
         background: white;
+        border: 1px dotted #eb5b72;
     }
 footer{
     display: inline-block;
