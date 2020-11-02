@@ -107,13 +107,10 @@
         },
         {
             "title": "La Merenguera",
-            "url": "http://streaming.radionomy.com/LaMerengueraCom",
+            "url": "https://streamingv2.shoutcast.com/LaMerenguerardCom",
             "genre": "latino merengue",
             "website": "http://www.lamerenguera.com",
-            "broadcast": {
-                "_radioUID": "f0d43e4b-5860-47cd-a5e7-d5d793d592c0",
-                "__text": "radionomy"
-            }
+            "broadcast": ""
         },
         {
             "title": "Tropical 100 Mix",
