@@ -317,7 +317,7 @@
             "genre": "8-bit electro video-game",
             "website": "http://nolife-radio.com",
             "broadcast": "icecast"
-        },        
+        },
         {
             "title": "011FM Hip Hop Hits",
             "url": "http://listen.011fm.com:9000/stream13",
@@ -369,7 +369,7 @@
         },
         {
             "title": "KIF Radio",
-            "url": "http://94.23.222.12:8003/stream",
+            "url": "http://eagle.streemlion.com:4168/stream",
             "genre": "funk house",
             "website": "http://www.kifradio.com",
             "broadcast": "icecast"
