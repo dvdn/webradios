@@ -387,7 +387,7 @@
         },
         {
             "title": "France Musique",
-            "url": "http://chai5she.cdn.dvmr.fr/francemusique-midfi.mp3?ID=pd569ib97j",
+            "url": "https://icecast.radiofrance.fr/francemusique-hifi.aac",
             "genre": "classical",
             "website": "https://www.francemusique.fr/",
             "broadcast": ""
