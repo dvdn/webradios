@@ -16,7 +16,7 @@
         },
         {
             "title": "Prog Palace Radio",
-            "url": "http://nap.casthost.net:8318/1?cb=370511.mp3",
+            "url": "https://cheetah.streemlion.com:4775/stream",
             "genre": "rock progressive",
             "website": "http://www.progpalaceradio.com/",
             "broadcast": "icecast"
@@ -380,10 +380,10 @@
         },
         {
             "title": "Venice classic radio",
-            "url": "http://109.123.116.202:8022/;",
+            "url": "https://uk2.streamingpulse.com/ssl/vcr1",
             "genre": "classical",
             "website": "http://www.veniceclassicradio.eu",
-            "broadcast": "shoutcast"
+            "broadcast": ""
         },
         {
             "title": "France Musique",
