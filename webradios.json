@@ -156,35 +156,35 @@
         },
         {
             "title": "Rires et Chansons - collectors",
-            "url": "http://185.52.127.131/fr/30421/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916611",
+            "url": "https://f5-pa6.nrjaudio.fm/fr/30421/aac_64.mp3?cdn_path=adswizz_lbs10&adws_out_b1&access_token=00df06d7017c4480989fa8e5a215f0fc",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
         {
             "title": "Rires et Chansons - canulars",
-            "url": "https://scdn.nrjaudio.fm/fr/30413/aac_64.mp3?cdn_path=adswizz_lbs7&adws_out_a1",
+            "url": "https://f5-pa6.nrjaudio.fm/fr/30413/aac_64.mp3?cdn_path=adswizz_lbs12&adws_out_b1&access_token=e32e32bf450c4e28b7c17125b4e25899",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
         {
             "title": "Rires et Chansons - sketches",
-            "url": "http://185.52.127.131/fr/30407/aac_64.mp3?type=.flv%26amsparams=playerid:WebPlayer+5.0;skey:1489916962",
+            "url": "https://f5-pa6.nrjaudio.fm/fr/30407/aac_64.mp3?cdn_path=adswizz_lbs8&adws_out_b1&access_token=e2ee9a3244b345cd93a526470c37c56a",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
         {
-            "title": "Rires et Chansons - live",
-            "url": "https://scdn.nrjaudio.fm/fr/30409/aac_64.mp3?cdn_path=adswizz_lbs7&adws_out_a1",
+            "title": "Rires et Chansons - stand up",
+            "url": "https://f5-pa6.nrjaudio.fm/fr/30417/aac_64.mp3?cdn_path=adswizz_lbs10&adws_out_b1&access_token=12e66d5e41c841e595c6de000ae8cdbd",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
         {
             "title": "Rires et Chansons - blagues",
-            "url": "https://scdn.nrjaudio.fm/fr/30411/aac_64.mp3?cdn_path=adswizz_lbs7&adws_out_a1",
+            "url": "https://f5-pa6.nrjaudio.fm/fr/30411/aac_64.mp3?cdn_path=adswizz_lbs8&adws_out_b1&access_token=bfa690dcb6504370be80bd83530bcad8",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
@@ -205,7 +205,7 @@
         },
         {
             "title": "Bide&Musique",
-            "url": "http://relay1.bide-et-musique.com:9100/;",
+            "url": "https://relay1.bide-et-musique.com:9300/bm.mp3",
             "genre": "chansons françaises 70's 80's",
             "website": "http://www.bide-et-musique.com/",
             "broadcast": "shoutcast"
@@ -296,7 +296,7 @@
         },
         {
             "title": "HouseTime.FM",
-            "url": "http://lw1.mp3.tb-group.fm:8080/ht.mp3",
+            "url": "https://listener3.mp3.tb-group.fm/ht.mp3",
             "genre": "electronic house",
             "website": "http://www.housetime.fm/",
             "broadcast": "shoutcast"
@@ -359,17 +359,10 @@
         },
         {
             "title": "Diva Radio FUNK",
-            "url": "http://163.172.119.118:10780/;",
+            "url": "http://91.121.59.45:10111/live",
             "genre": "funk",
             "website": "http://deevaradio.net",
-            "broadcast": "shoutcast"
-        },
-        {
-            "title": "..:: French Kiss FM ::..",
-            "url": "http://178.63.62.145/;",
-            "genre": "electronic",
-            "website": "http://www.frenchkissfm.com",
-            "broadcast": "shoutcast"
+            "broadcast": ""
         },
         {
             "title": "KIF Radio",
