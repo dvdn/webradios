@@ -316,10 +316,17 @@
             "broadcast": "icecast"
         },
         {
-            "title": "011FM Hip Hop Hits",
-            "url": "http://listen.011fm.com:9000/stream13",
+            "title": "Hot 108 JAMZ",
+            "url": "http://sc.hot108.com:4000/;",
             "genre": "hiphop",
-            "website": "https://011fm.com",
+            "website": "https://hot108.com",
+            "broadcast": ""
+        },
+        {
+            "title": "Dash Radio – Cadillacc Music",
+            "url": "https://streaming.radio.co/s24dcb60d4/listen",
+            "genre": "hiphop",
+            "website": "",
             "broadcast": ""
         },
         {
