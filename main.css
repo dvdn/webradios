@@ -101,4 +101,8 @@ footer{
     display: inline-block;
     padding-top: 50px;
     color:grey;
+    margin-left: 5%
 }
+    footer span{
+        float: right;
+    }
