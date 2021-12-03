@@ -58,7 +58,7 @@
         },
         {
             "title": "PBB",
-            "url": "http://pbb.laurentgarnier.com:8000/pbb128",
+            "url": "https://pbbradio.com:8443/pbb128",
             "genre": "eclectic laurent_garnier",
             "website": "http://laurentgarnier.com",
             "broadcast": "icecast"
@@ -114,7 +114,7 @@
         },
         {
             "title": "Tropical 100 Mix",
-            "url": "http://tp100.ddns.net:7996/;",
+            "url": "http://tropical100.net:7996/live.mp3",
             "genre": "latino",
             "website": "http://www.tropical100.com",
             "broadcast": "shoutcast"
@@ -142,7 +142,7 @@
         },
         {
             "title": "Radio Libertaire",
-            "url": "http://ecoutez.radio-libertaire.org:8080/radiolib",
+            "url": "http://media.radio-libertaire.org:8080/radiolib.mp3",
             "genre": "talk eclectic",
             "website": "https://www.radio-libertaire.net",
             "broadcast": "icecast"
@@ -254,10 +254,10 @@
         },
         {
             "title": "plusfm.net",
-            "url": "http://51.15.169.131/;",
+            "url": "https://radio12.pro-fhi.net:19035/1",
             "genre": "electronic",
             "website": "http://www.plusfm.net",
-            "broadcast": "shoutcast"
+            "broadcast": "icecast"
         },
         {
             "title": "ETN 2 house",
@@ -320,6 +320,13 @@
             "url": "http://sc.hot108.com:4000/;",
             "genre": "hiphop",
             "website": "https://hot108.com",
+            "broadcast": ""
+        },
+        {
+            "title": "Miami Bass FM",
+            "url": "https://streamingv2.shoutcast.com/miami-bass-fm",
+            "genre": "hiphop",
+            "website": "http://www.miamibass.fm/",
             "broadcast": ""
         },
         {
