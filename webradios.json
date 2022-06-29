@@ -2,10 +2,10 @@
     "webradios": [
         {
             "title": "4U Rock N Metal",
-            "url": "https://streamingv2.shoutcast.com/4U-Hard-FM",
+            "url": "https://cdnradio.streamakaci.com/4uhardfm.mp3",
             "genre": "rock metal",
             "website": "http://www.4urocknmetal.com",
-            "broadcast": ""
+            "broadcast": "icecast"
         },
         {
             "title": "La Grosse Radio METAL",
@@ -212,7 +212,7 @@
         },
         {
             "title": "Limbik Frequencies - Radio Elektro[u]nique",
-            "url": "http://23.254.130.178:8000/128.mp3",
+            "url": "https://limbikfreq.com:8443/128.mp3",
             "genre": "electronic idm",
             "website": "https://www.limbikfreq.com/",
             "broadcast": "shoutcast"
@@ -303,7 +303,7 @@
         },
         {
             "title": "Kohina",
-            "url": "http://stream.nute.net:8000/kohina/stream.ogg",
+            "url": "https://kohina.duckdns.org/icecast/stream.ogg",
             "genre": "8-bit electro video-game",
             "website": "http://www.kohina.com",
             "broadcast": ""
@@ -314,6 +314,13 @@
             "genre": "8-bit electro video-game",
             "website": "http://nolife-radio.com",
             "broadcast": "icecast"
+        },
+        {
+            "title": "80s80s HIPHOP",
+            "url": "https://80s80s.hoerradar.de/80s80s-hiphop-mp3-hq",
+            "genre": "hiphop",
+            "website": "https://www.80s80s.de/",
+            "broadcast": ""
         },
         {
             "title": "Hot 108 JAMZ",
@@ -331,7 +338,7 @@
         },
         {
             "title": "Dash Radio – Cadillacc Music",
-            "url": "https://streaming.radio.co/s24dcb60d4/listen",
+            "url": "https://ice55.securenetsystems.net/DASH16",
             "genre": "hiphop",
             "website": "",
             "broadcast": ""
@@ -341,6 +348,13 @@
             "url": "http://streaming308.radionomy.com:80/TodaysHottestHipHopHits",
             "genre": "hiphop",
             "website": "https://www.todayshottesthits.com/today-s-hottest-rhythmic-and-urban-hits.html",
+            "broadcast": ""
+        },
+        {
+            "title": "Rastafari Jams",
+            "url": "https://s2.radio.co/sccc2dccb5/listen",
+            "genre": "reggae",
+            "website": "https://www.rastafarijams.com/",
             "broadcast": ""
         },
         {
@@ -366,10 +380,10 @@
         },
         {
             "title": "Diva Radio FUNK",
-            "url": "http://91.121.59.45:10111/live",
+            "url": "https://stream.deevaradio.net:10443/divaradiofunk",
             "genre": "funk",
             "website": "http://deevaradio.net",
-            "broadcast": ""
+            "broadcast": "icecast"
         },
         {
             "title": "KIF Radio",
@@ -390,13 +404,6 @@
             "url": "https://uk2.streamingpulse.com/ssl/vcr1",
             "genre": "classical",
             "website": "http://www.veniceclassicradio.eu",
-            "broadcast": ""
-        },
-        {
-            "title": "France Musique",
-            "url": "https://icecast.radiofrance.fr/francemusique-hifi.aac",
-            "genre": "classical",
-            "website": "https://www.francemusique.fr/",
             "broadcast": ""
         },
         {
