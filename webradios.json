@@ -71,6 +71,20 @@
             "broadcast": "icecast"
         },
         {
+            "title": "LOLLIRADIO Italia",
+            "url": "https://stream.lolliradio.net/lolli_italia.mp3?FLID=1&aw_0_req.gdpr=true&type=.mp3",
+            "genre": "eclectic italia",
+            "website": "https://www.lolliradio.net/italia/",
+            "broadcast": "icecast"
+        },
+        {
+            "title": "Radio Napoli",
+            "url": "https://ice08.fluidstream.net/RadioNapoli.aac",
+            "genre": "eclectic italia napoli",
+            "website": "https://www.radionapoli.it/",
+            "broadcast": "icecast"
+        },
+        {
             "title": "FIP",
             "url": "http://icecast.radiofrance.fr/fip-midfi.mp3",
             "genre": "eclectic",
@@ -124,6 +138,13 @@
             "url": "http://stream.srg-ssr.ch/m/couleur3/mp3_128",
             "genre": "eclectic",
             "website": "http://www.rts.ch/couleur3",
+            "broadcast": ""
+        },
+        {
+            "title": "Deutschlandfunk Kultur",
+            "url": "https://d121.rndfnk.com/ard/dlf/02/mp3/128/stream.mp3?aggregator=web&cid=01FBPXKD7AYM1NKT2H60NVGHEQ&sid=2JYFDSD2SFasPCyxI4WI0sQZUUd&token=XFa8eqE4EDeddPXdD0VpWrLXHietlEgYTWK7g_1o30A&tvf=PhEcCGwXNRdkMTIxLnJuZGZuay5jb20",
+            "genre": "eclectic",
+            "website": "https://www.deutschlandfunkkultur.de/",
             "broadcast": ""
         },
         {
@@ -218,6 +239,13 @@
             "broadcast": "shoutcast"
         },
         {
+            "title": "Radio Caprice IDM",
+            "url": "http://79.111.14.76:8002/idm",
+            "genre": "electronic idm",
+            "website": "http://radcap.ru/idm.html",
+            "broadcast": "shoutcast"
+        },
+        {
             "title": "16BIT.FM I.D.E.A Channel",
             "url": "http://16bitfm.com:8000/idea_mp3_192",
             "genre": "electronic idm",
@@ -254,7 +282,7 @@
         },
         {
             "title": "plusfm.net",
-            "url": "https://radio12.pro-fhi.net:19035/1",
+            "url": "https://radio7.pro-fhi.net/radio/9004/1",
             "genre": "electronic",
             "website": "http://www.plusfm.net",
             "broadcast": "icecast"
@@ -275,21 +303,21 @@
         },
         {
             "title": "Friskyradio",
-            "url": "http://stream2.friskyradio.com/frisky_mp3_hi",
+            "url": "https://stream.frisky.friskyradio.com/mp3_low",
             "genre": "electronic",
             "website": "https://www.friskyradio.com",
             "broadcast": "shoutcast"
         },
         {
             "title": "Friskyradio Deep",
-            "url": "http://deep.friskyradio.com/friskydeep_aachi",
+            "url": "https://stream.deep.friskyradio.com/mp3_low",
             "genre": "electronic",
             "website": "https://www.friskyradio.com",
             "broadcast": "shoutcast"
         },
         {
             "title": "Friskyradio Chill",
-            "url": "http://chill.friskyradio.com/friskychill_mp3_high",
+            "url": "https://stream.chill.friskyradio.com/mp3_low",
             "genre": "electronic",
             "website": "https://www.friskyradio.com",
             "broadcast": "shoutcast"
