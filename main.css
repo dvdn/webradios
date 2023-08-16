@@ -48,30 +48,29 @@ header{
             margin: auto;
         }
         #infos-wrapper{
-            width: 500px;
+            max-width: 500px;
             margin: .8em auto 0;
             color: green;
-        }
-        .info{
+            background-color: black;
+            padding: .5em 0 .3em;
             text-align: center;
-            padding: .5em 0;
-            background: black;
         }
         #webradio-name{
             width: 100%;
-            line-height: .8em;
-        }
-        #webradio-metadata{
-            font-weight: bold;
+            padding-top: .2em;
         }
         #webradio-name a{
             color: #ffea59;
+        }
+        #webradio-metadata{
+            font-weight: bold;
+            line-height: 1.5em;
         }
         #webradio-metadata a, button:hover{
             color: #eb5b72;
         }
         #webradio-name a:hover, #webradio-metadata a:hover{
-            color: whitesmoke;
+            color: #f2f1f0;
         }
 
 #webradios-lists {
