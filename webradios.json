@@ -30,7 +30,7 @@
         },
         {
             "title": "Radio Neo",
-            "url": "http://www.radioneo.org:8000/radioneo",
+            "url": "http://stream.radioneo.org:8000/;stream/1",
             "genre": "rock",
             "website": "http://www.radioneo.org",
             "broadcast": "icecast"
@@ -120,18 +120,25 @@
             "broadcast": "shoutcast"
         },
         {
-            "title": "La Merenguera",
-            "url": "https://streamingv2.shoutcast.com/LaMerenguerardCom",
+            "title": "SUNU YAKAR RADIO",
+            "url": "https://broadcast.radioponiente.org:8050/;",
+            "genre": "african",
+            "website": "https://www.facebook.com/SUNU-YAKAR-RADIO-105834227919450/",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Latina 104",
+            "url": "http://144.126.156.130:9056/stream2",
             "genre": "latino merengue",
-            "website": "http://www.lamerenguera.com",
-            "broadcast": ""
+            "website": "https://latina104.net/",
+            "broadcast": "shoutcast"
         },
         {
             "title": "Tropical 100 Mix",
-            "url": "http://tropical100.net:7996/live.mp3",
+            "url": "https://stream-166.zeno.fm/esgo1lafgtstv",
             "genre": "latino",
-            "website": "http://www.tropical100.com",
-            "broadcast": "shoutcast"
+            "website": "https://tropical100.com.do/",
+            "broadcast": ""
         },
         {
             "title": "Couleur 3",
@@ -142,7 +149,7 @@
         },
         {
             "title": "Deutschlandfunk Kultur",
-            "url": "https://d121.rndfnk.com/ard/dlf/02/mp3/128/stream.mp3?aggregator=web&cid=01FBPXKD7AYM1NKT2H60NVGHEQ&sid=2JYFDSD2SFasPCyxI4WI0sQZUUd&token=XFa8eqE4EDeddPXdD0VpWrLXHietlEgYTWK7g_1o30A&tvf=PhEcCGwXNRdkMTIxLnJuZGZuay5jb20",
+            "url": "https://d121.rndfnk.com/ard/dlf/02/mp3/128/stream.mp3",
             "genre": "eclectic",
             "website": "https://www.deutschlandfunkkultur.de/",
             "broadcast": ""
@@ -177,35 +184,28 @@
         },
         {
             "title": "Rires et Chansons - collectors",
-            "url": "https://f5-pa6.nrjaudio.fm/fr/30421/aac_64.mp3?cdn_path=adswizz_lbs10&adws_out_b1&access_token=00df06d7017c4480989fa8e5a215f0fc",
+            "url": "https://scdn.nrjaudio.fm/fr/30421/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
         {
             "title": "Rires et Chansons - canulars",
-            "url": "https://f5-pa6.nrjaudio.fm/fr/30413/aac_64.mp3?cdn_path=adswizz_lbs12&adws_out_b1&access_token=e32e32bf450c4e28b7c17125b4e25899",
+            "url": "https://scdn.nrjaudio.fm/fr/30413/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
         {
             "title": "Rires et Chansons - sketches",
-            "url": "https://f5-pa6.nrjaudio.fm/fr/30407/aac_64.mp3?cdn_path=adswizz_lbs8&adws_out_b1&access_token=e2ee9a3244b345cd93a526470c37c56a",
+            "url": "https://scdn.nrjaudio.fm/fr/30407/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
         },
         {
             "title": "Rires et Chansons - stand up",
-            "url": "https://f5-pa6.nrjaudio.fm/fr/30417/aac_64.mp3?cdn_path=adswizz_lbs10&adws_out_b1&access_token=12e66d5e41c841e595c6de000ae8cdbd",
-            "genre": "rires talk",
-            "website": "http://www.rireetchansons.fr",
-            "broadcast": ""
-        },
-        {
-            "title": "Rires et Chansons - blagues",
-            "url": "https://f5-pa6.nrjaudio.fm/fr/30411/aac_64.mp3?cdn_path=adswizz_lbs8&adws_out_b1&access_token=bfa690dcb6504370be80bd83530bcad8",
+            "url": "https://scdn.nrjaudio.fm/fr/30417/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
             "website": "http://www.rireetchansons.fr",
             "broadcast": ""
@@ -338,14 +338,14 @@
         },
         {
             "title": "NoLife-radio.com",
-            "url": "http://radio.nolife-radio.com:9000/stream",
+            "url": "https://listen.nolife-radio.com/stream",
             "genre": "8-bit electro video-game",
             "website": "http://nolife-radio.com",
             "broadcast": "icecast"
         },
         {
             "title": "80s80s HIPHOP",
-            "url": "https://80s80s.hoerradar.de/80s80s-hiphop-mp3-hq",
+            "url": "https://regiocast.streamabc.net/regc-80s80shiphop3449572-mp3-192-3635250",
             "genre": "hiphop",
             "website": "https://www.80s80s.de/",
             "broadcast": ""
@@ -358,22 +358,15 @@
             "broadcast": ""
         },
         {
-            "title": "Miami Bass FM",
-            "url": "https://streamingv2.shoutcast.com/miami-bass-fm",
-            "genre": "hiphop",
-            "website": "http://www.miamibass.fm/",
-            "broadcast": ""
-        },
-        {
             "title": "Dash Radio – Cadillacc Music",
-            "url": "https://ice55.securenetsystems.net/DASH16",
+            "url": "https://ice55.securenetsystems.net/DASH57",
             "genre": "hiphop",
-            "website": "",
+            "website": "https://dashradio.com",
             "broadcast": ""
         },
         {
-            "title": "TodaysHottestHipHopHits",
-            "url": "http://streaming308.radionomy.com:80/TodaysHottestHipHopHits",
+            "title": "TodaysHottestHipHopHits (USA restricted)",
+            "url": "https://ais-edge105-live365-dal02.cdnstream.com/a85985",
             "genre": "hiphop",
             "website": "https://www.todayshottesthits.com/today-s-hottest-rhythmic-and-urban-hits.html",
             "broadcast": ""
@@ -386,13 +379,6 @@
             "broadcast": ""
         },
         {
-            "title": "Scratch radio",
-            "url": "http://www.scratchradio.ca:8000/;",
-            "genre": "reggae ska dub",
-            "website": "http://www.scratchradio.ca",
-            "broadcast": "shoutcast"
-        },
-        {
             "title": "FIP Reggae",
             "url": "http://icecast.radiofrance.fr/fipreggae-midfi.mp3",
             "genre": "reggae",
@@ -400,9 +386,16 @@
             "broadcast": ""
         },
         {
+            "title": "REGGAE CHILL CAFE",
+            "url": "https://maggie.torontocast.com:8104/stream",
+            "genre": "reggae",
+            "website": "https://radiosuitenetwork.torontocast.stream/reggae-chill-cafe/",
+            "broadcast": "shoutcast"
+        },
+        {
             "title": "BLACK SOUL RHYTHMS RADIO",
-            "url": "http://69.162.103.66:8055/;",
-            "genre": "soul",
+            "url": "http://s2.reliastream.com:8055/stream",
+            "genre": "hiphop soul",
             "website": "http://blacksoulrhythms.com",
             "broadcast": "shoutcast"
         },
@@ -412,6 +405,13 @@
             "genre": "funk",
             "website": "http://deevaradio.net",
             "broadcast": "icecast"
+        },
+        {
+            "title": "GENERATION SOUL DISCO FUNK RADIO",
+            "url": "http://91.121.104.123:8000/stream",
+            "genre": "funk",
+            "website": "https://www.generationdiscofunk.com/",
+            "broadcast": "shoutcast"
         },
         {
             "title": "KIF Radio",

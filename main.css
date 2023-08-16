@@ -48,30 +48,29 @@ header{
             margin: auto;
         }
         #infos-wrapper{
-            width: 500px;
+            max-width: 500px;
             margin: .8em auto 0;
             color: green;
-        }
-        .info{
+            background-color: black;
+            padding: .5em 0 .3em;
             text-align: center;
-            padding: .5em 0;
-            background: black;
         }
         #webradio-name{
             width: 100%;
-            line-height: .8em;
-        }
-        #webradio-metadata{
-            font-weight: bold;
+            padding-top: .2em;
         }
         #webradio-name a{
             color: #ffea59;
+        }
+        #webradio-metadata{
+            font-weight: bold;
+            line-height: 1.5em;
         }
         #webradio-metadata a, button:hover{
             color: #eb5b72;
         }
         #webradio-name a:hover, #webradio-metadata a:hover{
-            color: whitesmoke;
+            color: #f2f1f0;
         }
 
 #webradios-lists {
@@ -85,10 +84,11 @@ section{
     overflow-wrap: break-word;
 }
     button{
-        width: 95%;
-        padding: .8em 0;
+        width: 90%;
+        padding: .6em 0;
         margin: .2em 0;
         border: 1px solid lightgray;
+        border-radius: .6em;
         cursor: pointer;
         background: #f2f1f0;
         font-family: helvetica, sans-serif;
@@ -96,6 +96,7 @@ section{
     button:hover{
         background: white;
         border: 1px dotted #eb5b72;
+        font-weight: bold;
     }
 footer{
     display: inline-block;
