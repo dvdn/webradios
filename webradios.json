@@ -386,13 +386,6 @@
             "broadcast": ""
         },
         {
-            "title": "Scratch radio",
-            "url": "http://www.scratchradio.ca:8000/;",
-            "genre": "reggae ska dub",
-            "website": "http://www.scratchradio.ca",
-            "broadcast": "shoutcast"
-        },
-        {
             "title": "FIP Reggae",
             "url": "http://icecast.radiofrance.fr/fipreggae-midfi.mp3",
             "genre": "reggae",
