@@ -30,7 +30,7 @@
         },
         {
             "title": "Radio Neo",
-            "url": "http://www.radioneo.org:8000/radioneo",
+            "url": "http://stream.radioneo.org:8000/;stream/1",
             "genre": "rock",
             "website": "http://www.radioneo.org",
             "broadcast": "icecast"

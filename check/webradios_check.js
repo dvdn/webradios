@@ -39,8 +39,8 @@ function itemCheck(radioItem) {
     nodeTdValidity.innerHTML = ".";;
 
     nodeTr.appendChild(nodeTdName);
-    nodeTr.appendChild(nodeTdStream);
     nodeTr.appendChild(nodeTdValidity);
+    nodeTr.appendChild(nodeTdStream);
 
     nodeTable.appendChild(nodeTr);
     urlCheck(radioItem.url);
@@ -54,11 +54,11 @@ function urlCheck(url) {
         var doubt =  (xhr.readyState<3 & xhr.status!=200) ? true : false;
         displayResult(url, doubt);
         xhr.abort();
-    }, 1500);
+    }, 2000);
 }
 
 function displayResult(url, value){
     var nodeTargetTdValidity = document.querySelectorAll('.stream-valid[title="' + url + '"]')[0];
-    var valid = value ? "-> please check" : "seems OK";
+    var valid = value ? "> please check <" : "seems ok";
     nodeTargetTdValidity.innerHTML = valid;
 }

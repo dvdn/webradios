@@ -85,11 +85,11 @@ section{
     overflow-wrap: break-word;
 }
     button{
-        width: 95%;
-        padding: .5em 0;
+        width: 90%;
+        padding: .6em 0;
         margin: .2em 0;
         border: 1px solid lightgray;
-        border-radius: 12px;
+        border-radius: .6em;
         cursor: pointer;
         background: #f2f1f0;
         font-family: helvetica, sans-serif;
