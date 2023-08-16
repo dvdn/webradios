@@ -120,18 +120,25 @@
             "broadcast": "shoutcast"
         },
         {
-            "title": "La Merenguera",
-            "url": "https://streamingv2.shoutcast.com/LaMerenguerardCom",
+            "title": "SUNU YAKAR RADIO",
+            "url": "https://broadcast.radioponiente.org:8050/;",
+            "genre": "african",
+            "website": "https://www.facebook.com/SUNU-YAKAR-RADIO-105834227919450/",
+            "broadcast": "shoutcast"
+        },
+        {
+            "title": "Latina 104",
+            "url": "http://144.126.156.130:9056/stream2",
             "genre": "latino merengue",
-            "website": "http://www.lamerenguera.com",
-            "broadcast": ""
+            "website": "https://latina104.net/",
+            "broadcast": "shoutcast"
         },
         {
             "title": "Tropical 100 Mix",
-            "url": "http://tropical100.net:7996/live.mp3",
+            "url": "https://stream-166.zeno.fm/esgo1lafgtstv",
             "genre": "latino",
-            "website": "http://www.tropical100.com",
-            "broadcast": "shoutcast"
+            "website": "https://tropical100.com.do/",
+            "broadcast": ""
         },
         {
             "title": "Couleur 3",
@@ -338,7 +345,7 @@
         },
         {
             "title": "NoLife-radio.com",
-            "url": "http://radio.nolife-radio.com:9000/stream",
+            "url": "https://listen.nolife-radio.com/stream",
             "genre": "8-bit electro video-game",
             "website": "http://nolife-radio.com",
             "broadcast": "icecast"
@@ -401,7 +408,7 @@
         },
         {
             "title": "BLACK SOUL RHYTHMS RADIO",
-            "url": "http://69.162.103.66:8055/;",
+            "url": "http://s2.reliastream.com:8055/stream",
             "genre": "soul",
             "website": "http://blacksoulrhythms.com",
             "broadcast": "shoutcast"
@@ -412,6 +419,13 @@
             "genre": "funk",
             "website": "http://deevaradio.net",
             "broadcast": "icecast"
+        },
+        {
+            "title": "GENERATION SOUL DISCO FUNK RADIO",
+            "url": "http://91.121.104.123:8000/stream",
+            "genre": "funk",
+            "website": "https://www.generationdiscofunk.com/",
+            "broadcast": "shoutcast"
         },
         {
             "title": "KIF Radio",
