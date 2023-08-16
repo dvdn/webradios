@@ -86,9 +86,10 @@ section{
 }
     button{
         width: 95%;
-        padding: .8em 0;
+        padding: .5em 0;
         margin: .2em 0;
         border: 1px solid lightgray;
+        border-radius: 12px;
         cursor: pointer;
         background: #f2f1f0;
         font-family: helvetica, sans-serif;
@@ -96,6 +97,7 @@ section{
     button:hover{
         background: white;
         border: 1px dotted #eb5b72;
+        font-weight: bold;
     }
 footer{
     display: inline-block;
