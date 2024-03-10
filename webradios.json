@@ -149,7 +149,7 @@
         },
         {
             "title": "Deutschlandfunk Kultur",
-            "url": "https://d121.rndfnk.com/ard/dlf/02/mp3/128/stream.mp3",
+            "url": "https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web",
             "genre": "eclectic",
             "website": "https://www.deutschlandfunkkultur.de/",
             "broadcast": ""
@@ -233,10 +233,9 @@
         },
         {
             "title": "Limbik Frequencies - Radio Elektro[u]nique",
-            "url": "https://limbikfreq.com:8443/128.mp3",
+            "url": "https://limbikfreq.com/listen/limbik_frequencies/128.mp3",
             "genre": "electronic idm",
-            "website": "https://www.limbikfreq.com/",
-            "broadcast": "shoutcast"
+            "website": "https://limbikfreq.com/"
         },
         {
             "title": "Radio Caprice IDM",
