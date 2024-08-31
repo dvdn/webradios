@@ -30,7 +30,7 @@
         },
         {
             "title": "Radio Neo",
-            "url": "http://stream.radioneo.org:8000/;stream/1",
+            "url": "https://ice.creacast.com/radio-neo-paris",
             "genre": "rock",
             "website": "http://www.radioneo.org",
             "broadcast": "icecast"
@@ -128,7 +128,7 @@
         },
         {
             "title": "Latina 104",
-            "url": "http://144.126.156.130:9056/stream2",
+            "url": "http://217.23.15.43:9056/stream",
             "genre": "latino merengue",
             "website": "https://latina104.net/",
             "broadcast": "shoutcast"
@@ -177,7 +177,7 @@
         },
         {
             "title": "Ici et Maintenant",
-            "url": "http://radio.rim952.fr:8000/stream.mp3",
+            "url": "https://s64.radiolize.com/radio/8090/radio.mp3",
             "genre": "talk eclectic",
             "website": "http://www.icietmaintenant.com",
             "broadcast": "icecast"
@@ -284,13 +284,6 @@
             "url": "https://radio7.pro-fhi.net/radio/9004/1",
             "genre": "electronic",
             "website": "http://www.plusfm.net",
-            "broadcast": "icecast"
-        },
-        {
-            "title": "ETN 2 house",
-            "url": "http://www.etn.fm:8200/house-mp3-320",
-            "genre": "electronic house",
-            "website": "http://etn.fm",
             "broadcast": "icecast"
         },
         {
@@ -407,7 +400,7 @@
         },
         {
             "title": "GENERATION SOUL DISCO FUNK RADIO",
-            "url": "http://91.121.104.123:8000/stream",
+            "url": "https://gestream.fr/g-radio-hd.mp3",
             "genre": "funk",
             "website": "https://www.generationdiscofunk.com/",
             "broadcast": "shoutcast"
