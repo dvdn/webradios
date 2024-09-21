@@ -385,6 +385,13 @@
             "broadcast": "shoutcast"
         },
         {
+            "title": "HOT97",
+            "url": "https://27033.live.streamtheworld.com/WQHTFM.mp3",
+            "genre": "hiphop new-york",
+            "website": "https://www.hot97.com/listen-live/",
+            "broadcast": ""
+        },
+        {
             "title": "BLACK SOUL RHYTHMS RADIO",
             "url": "http://s2.reliastream.com:8055/stream",
             "genre": "hiphop soul",
