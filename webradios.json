@@ -57,7 +57,7 @@
             "broadcast": "icecast"
         },
         {
-            "title": "PBB",
+            "title": "PBB radio",
             "url": "https://pbbradio.com:8443/pbb128",
             "genre": "eclectic laurent_garnier",
             "website": "http://laurentgarnier.com",
@@ -167,6 +167,13 @@
             "genre": "talk eclectic",
             "website": "https://www.franceinter.fr",
             "broadcast": ""
+        },
+        {
+            "title": "Cause commune",
+            "url": "https://icecast.libre-a-toi.org:8444/voixdulat_mp3",
+            "genre": "talk eclectic",
+            "website": "https://cause-commune.fm",
+            "broadcast": "icecast"
         },
         {
             "title": "Radio Libertaire",
@@ -350,14 +357,14 @@
             "broadcast": ""
         },
         {
-            "title": "Dash Radio – Cadillacc Music",
+            "title": "Cadillacc Music (USA restricted)",
             "url": "https://ice55.securenetsystems.net/DASH57",
-            "genre": "hiphop",
-            "website": "https://dashradio.com",
+            "genre": "hiphop Snoop_Dogg",
+            "website": "https://littlive.com/cadi",
             "broadcast": ""
         },
         {
-            "title": "TodaysHottestHipHopHits (USA restricted)",
+            "title": "TodaysHottestHipHopHits",
             "url": "https://ais-edge105-live365-dal02.cdnstream.com/a85985",
             "genre": "hiphop",
             "website": "https://www.todayshottesthits.com/today-s-hottest-rhythmic-and-urban-hits.html",

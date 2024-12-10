@@ -51,7 +51,7 @@ header{
             max-width: 500px;
             margin: .8em auto 0;
             color: green;
-            background-color: black;
+            background-image: radial-gradient(circle, black, black, white);
             padding: .5em 0 .3em;
             text-align: center;
         }
