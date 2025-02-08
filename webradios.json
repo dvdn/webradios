@@ -82,7 +82,7 @@
             "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
             "genre": "eclectic usa seattle",
             "website": "https://www.kexp.org/",
-            "broadcast": ""
+            "broadcast": "https://api.kexp.org/v2/plays/?limit=1"
         },
         {
             "title": "LOLLIRADIO Italia",
@@ -102,8 +102,7 @@
             "title": "FIP",
             "url": "http://icecast.radiofrance.fr/fip-midfi.mp3",
             "genre": "eclectic",
-            "website": "https://www.fip.fr/",
-            "broadcast": ""
+            "website": "https://www.fip.fr/"
         },
         {
             "title": "WorldWide FM",
