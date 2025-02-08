@@ -18,8 +18,7 @@
             "title": "Kerrang! Radio",
             "url": "http://edge-bauerall-01-gos2.sharp-stream.com/kerrang.mp3",
             "genre": "rock",
-            "website": "https://hellorayo.co.uk/kerrang/",
-            "broadcast": ""
+            "website": "https://hellorayo.co.uk/kerrang/"
         },
         {
             "title": "Prog Palace Radio",
@@ -82,7 +81,7 @@
             "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
             "genre": "eclectic usa seattle",
             "website": "https://www.kexp.org/",
-            "broadcast": ""
+            "broadcast": "https://api.kexp.org/v2/plays/?limit=1"
         },
         {
             "title": "LOLLIRADIO Italia",
@@ -102,29 +101,25 @@
             "title": "FIP",
             "url": "http://icecast.radiofrance.fr/fip-midfi.mp3",
             "genre": "eclectic",
-            "website": "https://www.fip.fr/",
-            "broadcast": ""
+            "website": "https://www.fip.fr/"
         },
         {
             "title": "WorldWide FM",
             "url": "http://worldwidefm.out.airtime.pro:8000/worldwidefm_a",
             "genre": "eclectic gilles_peterson",
-            "website": "http://worldwidefm.net/",
-            "broadcast": ""
+            "website": "http://worldwidefm.net/"
         },
         {
             "title": "NTS (stream 1)",
             "url": "https://stream-relay-geo.ntslive.net/stream",
             "genre": "eclectic",
-            "website": "https://www.nts.live/",
-            "broadcast": ""
+            "website": "https://www.nts.live/"
         },
         {
             "title": "NTS (stream 2)",
             "url": "https://stream-relay-geo.ntslive.net/stream2",
             "genre": "eclectic",
-            "website": "https://www.nts.live/",
-            "broadcast": ""
+            "website": "https://www.nts.live/"
         },
         {
             "title": "Pan African Allstars",
@@ -151,36 +146,31 @@
             "title": "Tropical 100 Mix",
             "url": "https://stream-166.zeno.fm/esgo1lafgtstv",
             "genre": "latino",
-            "website": "https://tropical100.com.do/",
-            "broadcast": ""
+            "website": "https://tropical100.com.do/"
         },
         {
             "title": "Couleur 3",
             "url": "http://stream.srg-ssr.ch/m/couleur3/mp3_128",
             "genre": "eclectic",
-            "website": "http://www.rts.ch/couleur3",
-            "broadcast": ""
+            "website": "http://www.rts.ch/couleur3"
         },
         {
             "title": "Deutschlandfunk Kultur",
             "url": "https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web",
             "genre": "eclectic",
-            "website": "https://www.deutschlandfunkkultur.de/",
-            "broadcast": ""
+            "website": "https://www.deutschlandfunkkultur.de/"
         },
         {
             "title": "France Culture",
             "url": "http://direct.franceculture.fr/live/franceculture-midfi.mp3",
             "genre": "talk eclectic",
-            "website": "https://www.franceculture.fr",
-            "broadcast": ""
+            "website": "https://www.franceculture.fr"
         },
         {
             "title": "France Inter",
             "url": "http://direct.franceinter.fr/live/franceinter-midfi.mp3",
             "genre": "talk eclectic",
-            "website": "https://www.franceinter.fr",
-            "broadcast": ""
+            "website": "https://www.franceinter.fr"
         },
         {
             "title": "Cause commune",
@@ -207,36 +197,31 @@
             "title": "Rires et Chansons - collectors",
             "url": "https://scdn.nrjaudio.fm/fr/30421/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
-            "website": "http://www.rireetchansons.fr",
-            "broadcast": ""
+            "website": "http://www.rireetchansons.fr"
         },
         {
             "title": "Rires et Chansons - canulars",
             "url": "https://scdn.nrjaudio.fm/fr/30413/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
-            "website": "http://www.rireetchansons.fr",
-            "broadcast": ""
+            "website": "http://www.rireetchansons.fr"
         },
         {
             "title": "Rires et Chansons - sketches",
             "url": "https://scdn.nrjaudio.fm/fr/30407/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
-            "website": "http://www.rireetchansons.fr",
-            "broadcast": ""
+            "website": "http://www.rireetchansons.fr"
         },
         {
             "title": "Rires et Chansons - stand up",
             "url": "https://scdn.nrjaudio.fm/fr/30417/aac_64.mp3?cdn_path=adswizz_lbs9&adws_out_1",
             "genre": "rires talk",
-            "website": "http://www.rireetchansons.fr",
-            "broadcast": ""
+            "website": "http://www.rireetchansons.fr"
         },
         {
             "title": "Nostalgie",
             "url": "http://185.52.127.168/fr/40106/aac_64.mp3",
             "genre": "chansons françaises",
-            "website": "http://www.nostalgie.fr",
-            "broadcast": ""
+            "website": "http://www.nostalgie.fr"
         },
         {
             "title": "Maurice Radio Libre",
@@ -297,8 +282,7 @@
             "title": "FIP Electro",
             "url": "http://icecast.radiofrance.fr/fipelectro-midfi.mp3",
             "genre": "electronic",
-            "website": "https://www.fip.fr/",
-            "broadcast": ""
+            "website": "https://www.fip.fr/"
         },
         {
             "title": "plusfm.net",
@@ -346,8 +330,7 @@
             "title": "Kohina",
             "url": "https://kohina.duckdns.org/icecast/stream.ogg",
             "genre": "8-bit electro video-game",
-            "website": "http://www.kohina.com",
-            "broadcast": ""
+            "website": "http://www.kohina.com"
         },
         {
             "title": "NoLife-radio.com",
@@ -360,43 +343,37 @@
             "title": "80s80s HIPHOP",
             "url": "https://regiocast.streamabc.net/regc-80s80shiphop3449572-mp3-192-3635250",
             "genre": "hiphop",
-            "website": "https://www.80s80s.de/",
-            "broadcast": ""
+            "website": "https://www.80s80s.de/"
         },
         {
             "title": "Hot 108 JAMZ",
             "url": "http://sc.hot108.com:4000/;",
             "genre": "hiphop",
-            "website": "https://hot108.com",
-            "broadcast": ""
+            "website": "https://hot108.com"
         },
         {
             "title": "Cadillacc Music (USA restricted)",
             "url": "https://ice55.securenetsystems.net/DASH57",
             "genre": "hiphop Snoop_Dogg",
-            "website": "https://littlive.com/cadi",
-            "broadcast": ""
+            "website": "https://littlive.com/cadi"
         },
         {
             "title": "TodaysHottestHipHopHits (USA restricted)",
             "url": "https://ais-edge105-live365-dal02.cdnstream.com/a99954",
             "genre": "hiphop",
-            "website": "https://www.todayshottesthits.com/",
-            "broadcast": ""
+            "website": "https://www.todayshottesthits.com/"
         },
         {
             "title": "Rastafari Jams",
             "url": "https://s2.radio.co/sccc2dccb5/listen",
             "genre": "reggae",
-            "website": "https://www.rastafarijams.com/",
-            "broadcast": ""
+            "website": "https://www.rastafarijams.com/"
         },
         {
             "title": "FIP Reggae",
             "url": "http://icecast.radiofrance.fr/fipreggae-midfi.mp3",
             "genre": "reggae",
-            "website": "https://www.fip.fr/",
-            "broadcast": ""
+            "website": "https://www.fip.fr/"
         },
         {
             "title": "REGGAE CHILL CAFE",
@@ -409,8 +386,7 @@
             "title": "HOT97",
             "url": "https://27033.live.streamtheworld.com/WQHTFM.mp3",
             "genre": "hiphop new-york",
-            "website": "https://www.hot97.com/listen-live/",
-            "broadcast": ""
+            "website": "https://www.hot97.com/listen-live/"
         },
         {
             "title": "BLACK SOUL RHYTHMS RADIO",
@@ -451,29 +427,25 @@
             "title": "Venice classic radio",
             "url": "https://uk2.streamingpulse.com/ssl/vcr1",
             "genre": "classical",
-            "website": "http://www.veniceclassicradio.eu",
-            "broadcast": ""
+            "website": "http://www.veniceclassicradio.eu"
         },
         {
             "title": "Radio Classique",
             "url": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3?ID=pd569ib97j",
             "genre": "classical",
-            "website": "https://www.francemusique.fr/",
-            "broadcast": ""
+            "website": "https://www.francemusique.fr/"
         },
         {
             "title": "Brazilian Birds Radio",
             "url": "http://sc-brazilianbirds.1.fm:10076/",
             "genre": "birds",
-            "website": "http://www.1.fm/",
-            "broadcast": ""
+            "website": "http://www.1.fm/"
         },
         {
             "title": "Radio Paradise",
             "url": "http://stream-uk1.radioparadise.com/aac-128",
             "genre": "rock",
-            "website": "https://www.radioparadise.com",
-            "broadcast": ""
+            "website": "https://www.radioparadise.com"
         }
     ]
 }
