@@ -78,6 +78,13 @@
             "broadcast": "icecast"
         },
         {
+            "title": "KEXP",
+            "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
+            "genre": "eclectic usa seattle",
+            "website": "https://www.kexp.org/",
+            "broadcast": ""
+        },
+        {
             "title": "LOLLIRADIO Italia",
             "url": "https://stream.lolliradio.net/lolli_italia.mp3?FLID=1&aw_0_req.gdpr=true&type=.mp3",
             "genre": "eclectic italia",
